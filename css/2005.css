@@ -1,0 +1,756 @@
+body {
+background:#8A8AAC url(../graphics_2006/background.png) repeat-x;
+/*
+background:#666C89 url(../graphics_2005/bg02_3.jpg) repeat-x;
+*/
+font-family:"Lucida Grande", Verdana, Geneva, sans-serif;
+text-align:center;
+}
+
+:link {
+color:#009;
+}
+
+a:hover,a:visited:hover {
+color:#fff;
+}
+
+a:hover {
+background-color:#006;
+}
+
+a:visited:hover {
+background-color:#600;
+}
+
+a img,:link img,:visited img,:hover img {
+background-color:transparent;
+border:none;
+}
+
+#page_outer {
+background:#fff;
+border-left:3px solid #ACAFBF;
+border-right:3px solid #ACAFBF;
+border-bottom:3px solid #ACAFBF;
+width:812px;
+margin:0 auto;
+}
+
+#page_inner {
+text-align:left;
+padding:15px 15px 10px;
+}
+
+h1 {
+background:url(../graphics_2006/logo_bw_2006.gif) 50% 50%;
+height:51px;
+}
+
+h1 a,h1 a:visited {
+display:block;
+height:0 !important;
+margin-left:229px;
+overflow:hidden;
+padding-top:51px;
+width:324px;
+}
+
+h1 a:hover,h1 a:visited:hover {
+background:transparent;
+}
+
+#navigation {
+margin-top:15px;
+}
+
+#navigation ul {
+font-size:12px;
+list-style:none;
+margin:7px 0 15px;
+}
+
+#navigation li {
+display:inline;
+margin:1px 0 0;
+}
+
+#navigation a,#navigation a:visited {
+background:#414352;
+color:#fff;
+display:block;
+text-decoration:none;
+margin:1px 0 0;
+padding:1px 0 1px 3px;
+}
+
+#navigation a:hover,#location-home #home a,#location-about #about a,#location-resume #about a,#location-portfolio #portfolio a,#location-writing #writing a,#location-writing-archives #writing a,#location-contact #contact a {
+background:#8E7B39;
+color:#fff;
+text-decoration:none;
+}
+
+.sansai #sansai a,.sbrp #sbrp a,.jeff #jeff a,.wolfkatz #wolfkatz a,.immuno #immuno a,.alabut #alabut a,.alabutveefour #alabutveefour a,.bioredesign #bioredesign a,.biofirstsite #biofirstsite a,.biopreapp #biopreapp a,.flashslideshow #flashslideshow a,.dentrek #dentrek a,.biobuildings #biobuildings a,.lscalendar #lscalendar a,.bioxml #bioxml a,.biointranet #biointranet a {
+background:#EF684A;
+color:#fff;
+}
+
+#location-portfolio #sidebar a {
+display:block;
+padding-left:3px;
+}
+
+#location-portfolio #sidebar a:visited:hover {
+background:#571C8C;
+color:#fff;
+}
+
+h2 {
+color:#333;
+letter-spacing:-1px;
+}
+
+#content,#content-intro {
+font-size:12px;
+}
+
+#content h2 {
+background:url(../graphics_2005/gray_stripes.gif) repeat-x;
+font-size:18px;
+padding-top:22px;
+}
+
+#content h2 a {
+color:#006;
+}
+
+#content h2 a:hover {
+background:#006;
+color:#fff;
+}
+
+#content h2 a:visited {
+color:#600;
+}
+
+#content h2 a:visited:hover {
+background:#600;
+color:#fff;
+}
+
+.post {
+background:url(../graphics_2005/post_divider.gif) 50% 100% no-repeat;
+margin-bottom:50px;
+padding-bottom:71px;
+}
+
+p {
+padding:10px 0 0;
+}
+
+#form-search fieldset {
+border:1px solid #ccc;
+margin-top:5px;
+padding:6px;
+}
+
+#form-search #url {
+width:10em;
+}
+
+#form-search .search {
+margin:0 0 0 5px;
+}
+
+#location-resume #content h2 {
+margin:20px 0 0;
+}
+
+#location-resume #content p {
+margin:0;
+}
+
+#location-resume #content h4 {
+font-size:12px;
+font-weight:400;
+}
+
+#location-resume #content h5 {
+color:#333;
+font-size:11px;
+font-weight:400;
+}
+
+#location-writing-archives #content {
+background:#fff;
+color:#1A1A1A;
+float:left;
+font-size:12px;
+width:559px;
+}
+
+#location-writing-archives p,#location-writing-archives li {
+line-height:140%;
+}
+
+#location-writing-archives h3 {
+border-bottom:1px solid #ccc;
+color:#1A1A1A;
+font-size:12px;
+font-weight:700;
+margin:20px 0 0;
+padding:5px 0 3px;
+}
+
+#location-writing-archives h3.date {
+border:none;
+color:#666;
+font-size:10px;
+font-weight:400;
+margin:2px 0 10px;
+padding:0;
+}
+
+#location-writing-archives #sidebar {
+background:#fff url(../graphics_2005/gray_stripes.gif) repeat-x;
+float:right;
+font-size:11px;
+width:193px;
+}
+
+#location-writing-archives #sidebar p,#location-writing-archives #sidebar ul {
+background:#dadada;
+border:1px solid #ccc;
+}
+
+#location-writing-archives #sidebar p#amazon-omakase {
+text-align:center;
+}
+
+#location-writing-archives #sidebar p {
+padding: 10px;
+}
+
+#location-writing-archives #sidebar ul {
+list-style:none;
+margin-top:10px;
+padding:0 10px 10px 10px;
+}
+
+#location-writing-archives #sidebar h2 {
+border-top:3px solid #ccc;
+border-bottom:1px dotted #999;
+font-size:11px;
+letter-spacing:-1px;
+margin-top:30px;
+margin-bottom:5px;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+#location-writing-archives #sidebar #delicious div {
+background: transparent;
+border:none;
+padding-top:5px;
+}
+
+#location-writing-archives #sidebar #delicious div div {
+background: transparent;
+border: none;
+padding:0;
+}
+
+#location-writing-archives #sidebar #delicious ul {
+background: transparent;
+border:none;
+}
+
+#location-writing-archives #sidebar #delicious *:hover {
+background-color: transparent;
+color: #009;
+text-decoration:none;
+}
+
+#location-writing-archives #sidebar #delicious ul *:hover {
+background-color: transparent;
+text-decoration:underline;
+}
+
+#location-writing-archives #content h2 a,
+#location-writing-archives #content h2 a:visited {
+color: #333;
+text-decoration: none;
+}
+
+#location-writing-archives #content h2 a:hover {
+background: transparent;
+color: #006;
+text-decoration: underline;
+}
+
+#location-writing-archives #sidebar #first {
+border:none;
+margin-top:10px;
+}
+
+#location-writing-archives #sidebar #book img {
+border:1px solid #ccc;
+margin-top:5px;
+padding:3px;
+}
+
+#location-writing-archives #sidebar #book a:hover {
+background:none;
+color:red;
+}
+
+#location-writing-archives #sidebar #ad {
+margin-top:20px;
+}
+
+#location-writing-archives #sidebar #feeds a {
+background:url(/graphics_2006/feed-icon-16x16_gray.gif) no-repeat 1px 60%;
+display:block;
+padding:5px 0 5px 22px;
+}
+
+#location-writing-archives #sidebar #feeds a:hover {
+background:#FADCC7 url(/graphics_2006/feed-icon-16x16_orange.gif) no-repeat 1px 60%;
+color:#81451B;
+}
+
+/* this was one-off, needs to be eliminated or refactored from the html also
+#location-writing-archives #sidebar #sidebar-bio {
+padding:12px;
+}
+*/
+
+#location-writing-archives #sidebar #sidebar-learnmore a {
+display:block;
+padding:7px;
+}
+
+#location-writing-archives #sidebar #sidebar-learnmore a:hover {
+background:#E3D1D1;
+color:#600;
+}
+
+#location-writing-archives #archivemenu {
+margin-top:5px;
+margin-bottom:5px;
+width:100%;
+}
+
+#location-writing-archives #content h2 {
+font-size:30px;
+letter-spacing:-2px;
+padding-bottom:5px;
+}
+
+#location-writing-archives #content img {
+border:1px solid #ccc;
+float:right;
+margin:0 0 5px 5px;
+padding:3px;
+}
+
+#location-writing-archives #content img.banner {
+background:#ccc;
+border:1px solid #999;
+float:none;
+margin:5px 0;
+padding:3px;
+}
+
+#location-writing-archives #content img.matchthebackground {
+background:transparent;
+border:none;
+}
+
+.nohoverlinks *:hover, .nohoverlinks *:visited:hover {
+background:transparent;
+}
+
+#location-writing-archives #content blockquote {
+background-color:#f5f5f5;
+border-bottom:1px solid #999;
+border-top:1px solid #999;
+line-height:180%;
+margin:20px;
+padding:10px;
+}
+
+#location-writing-archives #content .IM {
+background:url(../graphics_2006/IM_middle_grey.gif) repeat-y;
+border:none;
+width:402px;
+margin:20px 0;
+padding:0;
+}
+
+#location-writing-archives #content .IM ul {
+background:url(../graphics_2006/IM_top.gif) no-repeat;
+list-style:none;
+margin:0;
+padding:25px 0 0;
+}
+
+#location-writing-archives #content .IM li {
+background:url(../graphics_2006/IM_middle_white.gif) repeat-y;
+margin:0 0 2px;
+padding:5px 5px 5px 25px;
+}
+
+#location-writing-archives #content .IM .IM-bottom {
+background:url(../graphics_2006/IM_bottom.gif) no-repeat 0 100%;
+height:20px;
+}
+
+#location-writing-archives #content ul,#location-writing-archives #content ol {
+margin:10px 0 0 30px;
+}
+
+#location-writing-archives #content ul {
+list-style:circle;
+}
+
+#location-writing-archives .technoratitag,#location-writing-archives .blogPostFooter {
+background:#F1F1F1;
+border-top:1px solid #E8E8E8;
+border-bottom:1px solid #E8E8E8;
+color:#333;
+font-size:10px;
+margin:10px 0 5px;
+padding:5px;
+}
+
+#flickrimg1,#flickrimg2,#flickrimg3,#flickrimg4,#flickrimg5,#flickrimg6,#flickrimg7,#flickrimg8,#flickrimg9,#flickrimg10 {
+margin:4px 4px 0 0;
+padding:0;
+}
+
+#content .blogComments h1 {
+/*background:url(../graphics_2005/gray_stripes.gif) 0 0 repeat-x;*/
+background:url(../graphics_2005/post_divider.gif) 50% 0 no-repeat;
+border:none;
+display:block;
+height:auto;
+margin-top:50px;
+padding:0;
+}
+
+.blogComment {
+border-top:1px solid #ccc;
+margin-top:15px;
+padding-top:25px;
+}
+
+.blogCommentCreate {
+border-bottom:1px solid #ccc;
+padding-bottom:25px;
+}
+
+#content .byline {
+color:#333;
+font-size:10px;
+padding-bottom:15px;
+margin:5px 0;
+}
+
+#location-writing-archives .update {
+background:#F6E8E8;
+border:1px solid #E3B9B9;
+padding:5px;
+}
+
+#location-writing-archives .update strong {
+color:#900;
+}
+
+#location-writing-archives #content .links,#location-writing-archives #content .links * {
+padding:0;
+}
+
+#location-writing-archives #content .links {
+border-top:1px dotted #ccc;
+list-style-type:none;
+width:100%;
+margin:20px 0;
+}
+
+#location-writing-archives #content .links li {
+border-bottom:1px dotted #ccc;
+}
+
+#location-writing-archives #content .links li a {
+color:#900;
+display:block;
+text-decoration:none;
+padding:5px;
+}
+
+#location-writing-archives #content .links li a:hover {
+background:#D1D1EC;
+}
+
+#location-writing-archives #content .links li a:hover * {
+color:#000;
+}
+
+#location-writing-archives #content .links dt {
+color:#009;
+display:block;
+font-size:16px;
+line-height:125%;
+}
+
+#location-writing-archives #content .links dd {
+color:#666;
+line-height:150%;
+}
+
+#location-writing-archives #content .links p {
+text-align:center;
+}
+
+#location-writing-archives #content .links img {
+float:none;
+padding:1px;
+}
+
+#location-about #column-one,#location-about #column-two,#location-404 #column-one,#location-404 #column-two,#location-writing #content,#location-writing #sidebar,#location-contact #content,#location-contact #sidebar,#location-home #featured-project,#location-home #latest-writing {
+color:#1A1A1A;
+float:left;
+font-size:12px;
+width:381px;
+}
+
+#location-home #featured-project,#location-home #latest-writing,#location-home #contact-info {
+margin-top:20px;
+margin-bottom:10px;
+}
+
+#location-home #featured-project img {
+border:1px solid #ccc;
+float:left;
+margin:0 10px 10px 0;
+padding:3px;
+}
+
+#location-home #contact-info {
+padding-top:10px;
+clear:both;
+}
+
+#location-about #column-two,#location-404 #column-two,#location-writing #sidebar,#location-contact #sidebar,#location-home #latest-writing {
+float:right;
+}
+
+#location-home #content-intro,#location-home #contact-info {
+color:#1A1A1A;
+font-size:12px;
+}
+
+#location-about h2,#location-404 h2,#location-writing h2,#location-contact h2,#location-home h2 {
+background:url(../graphics_2005/gray_stripes.gif) repeat-x;
+font-size:14px;
+letter-spacing:0;
+padding-top:22px;
+}
+
+#location-404 #column-one h2 {
+font-size:60px;
+letter-spacing:-2px;
+}
+
+#location-404 #column-two a {
+text-decoration:underline;
+}
+
+#location-404 #column-two a:hover {
+text-decoration:none;
+}
+
+#location-about h3,#location-404 h3,#location-writing h3,#location-contact h3,#location-home h3 {
+color:#1A1A1A;
+font-size:12px;
+font-weight:700;
+}
+
+#location-about p {
+margin:0 0 10px;
+padding:0;
+}
+
+#location-about #column-one li,#location-about #column-two li {
+list-style:circle;
+margin-left:30px;
+}
+
+#location-contact #content li {
+list-style:none;
+margin-top:10px;
+}
+
+#location-contact #content address {
+font-style:normal;
+}
+
+#location-home .learn-more a,#location-home .learn-more a:visited {
+background:#E6E6E6;
+border:1px solid #ccc;
+color:#333;
+padding:2px 5px;
+}
+
+#location-home .learn-more a:hover {
+background:#333;
+color:#fff;
+text-decoration:none;
+}
+
+#location-home #content-intro h2 {
+font-size:20px;
+}
+
+#location-home #content-intro p {
+color: #333;
+font-size:12px;
+padding-top: 3px;
+}
+
+#location-portfolio #content {
+color:#1A1A1A;
+float:right;
+font-size:12px;
+width:569px;
+}
+
+#location-portfolio #content h2 {
+border-bottom:3px solid #E4E4E4;
+font-size:30px;
+padding-bottom:5px;
+}
+
+#location-portfolio #content p {
+margin:5px 0 20px;
+padding:0;
+}
+
+#location-portfolio #content img {
+border:1px solid #ccc;
+clear:right;
+float:right;
+margin:10px 0 0 10px;
+padding:5px;
+}
+
+#location-portfolio #sidebar {
+background:url(../graphics_2005/gray_stripes.gif) repeat-x;
+float:left;
+font-size:12px;
+width:193px;
+}
+
+#location-portfolio #sidebar h2 {
+border-top:3px solid #E4E4E4;
+font-size:12px;
+margin-top:11px;
+padding-top:11px;
+}
+
+#location-portfolio #sidebar .first {
+border:none;
+}
+
+#footer {
+background:#ccc url(../graphics_2005/footer.gif) 50% 0 no-repeat;
+clear:both;
+color:#333;
+font-size:10px;
+line-height:180%;
+text-align:left;
+padding:45px 15px 15px;
+}
+
+#footer a {
+color:#333;
+text-decoration:underline;
+}
+
+#footer a:hover {
+background:transparent;
+color:#000;
+text-decoration:none;
+}
+
+*,#location-writing-archives #content blockquote p {
+margin:0;
+padding:0;
+}
+
+#skipnav,#content h1,#content-intro h1,#sidebar h1,#featured-project h1,#latest-writing h1,#form-search .hidden,#location-resume #content h1,#location-about #column-one h1,#location-about #column-two h1,#location-404 #column-one h1,#location-404 #column-two h1,#location-home #featured-project h1,#location-home #latest-writing h1,#location-home #contact-info h1,#footer h1 {
+display:none;
+}
+
+:link,:visited,#location-writing-archives #content a:hover,.technoratitag a,.technoratitag a:link,#location-about #column-one a:hover,#location-about #column-two a:hover,#location-writing #content ul a,.continued:hover {
+text-decoration:none;
+}
+
+#content :link,#content :visited,#location-writing-archives #content a,#location-about #column-one a,#location-about #column-two a,.continued {
+text-decoration:underline;
+}
+
+#location-portfolio #sidebar li,address {
+display:inline;
+}
+
+#form-search,#location-writing-archives #sidebar #book {
+text-align:left;
+}
+
+#form-search legend,#location-home h4 {
+color:#666;
+font-size:10px;
+}
+
+#location-resume #content h3,#location-portfolio #content h3 {
+font-size:12px;
+margin-top:10px;
+}
+
+#location-resume #content ul,#location-portfolio #content li {
+list-style:circle;
+margin-left:20px;
+}
+
+#location-writing-archives p,#footer p {
+margin:10px 0 0;
+padding:0;
+}
+
+#location-writing-archives #sidebar li,#location-home .learn-more,#location-home #featured-project .learn-more {
+margin-top:5px;
+}
+
+#location-home #featured-project h2,#location-home #latest-writing h2 {
+margin-bottom:10px;
+}
+
+#location-home #featured-project p,#location-home #latest-writing p {
+padding-top:0;
+margin:0 0 10px;
+}
+
+#location-home #latest-writing .blogpost {
+border-bottom: 1px solid #ccc;
+margin-bottom: 8px;
+}
+
+#location-contact #chat,#location-about h3 {
+margin:15px 0;
+}
+
+#location-writing ul,#location-portfolio #sidebar ul {
+list-style:none;
+}

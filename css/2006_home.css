@@ -1,0 +1,83 @@
+/*****
+alabut.com - version six.
+
+
+
+Some rights reserved. This work is licensed by Al Abut
+under a Creative Commons License
+(Attribution-NonCommercial-ShareAlike 2.0)
+
+
+
+created for 2005 with tender loving care. enjoy.
+feel free to dig in and learn - that's how I got here.
+just don't rip me off or I'll have to hunt you down.
+
+
+
+these two styles serve only one purpose: creating
+fading preloader effect for the photo banner on the
+home page, along with the photoload.js javascript file.
+*****/
+
+#photoholder {
+	background: #E6E6E6 url(../graphics_2005/preload_graphic.gif) 50% 50% no-repeat;
+	border: 1px solid #ccc;
+	height: 301px;
+	margin: 15px 0 17px 0;
+	width: 780px;
+}
+
+#photoholder img {
+	padding: 1px;
+}
+
+#photoholder-big, #photoholder-big img {
+	display: none;
+}
+
+
+
+#location-home #latest-writing * {
+	background: none;
+	border: none;
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+#location-home #latest-writing a,
+#location-home #latest-writing a:hover {
+	background: none;
+	border-top: 1px dotted #999;
+	color: #333;
+	display: block;
+	font: 11px Verdana;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#location-home #latest-writing a:hover {
+	background: #D1D1EC;
+}
+
+
+#location-home #latest-writing h2 {
+        background: url(../graphics_2005/gray_stripes.gif) repeat-x;
+	font-size: 14px;
+	padding-top: 22px;
+}
+
+#location-home #latest-writing h3 {
+	color: #009;
+}
+
+#location-home #latest-writing .learn-more a {
+	border-bottom: 1px dotted #999;
+	color: #006;
+	font-weight: bold;
+}
+
+#location-home #latest-writing a.learnmore:hover {
+	text-decoration: underline;
+}

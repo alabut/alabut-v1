@@ -1,0 +1,104 @@
+
+/* header (logo and nav) */
+body                                    { background: url(/images/header.png) repeat-x; margin: 0; }
+h1                                      { float: left; height: 40px; margin: 0; overflow: hidden; }
+h1 a                                    { background: url(/images/logo.png) no-repeat 4px 5px; display: block; height: 100%; overflow: hidden; text-indent: -10000px; width: 100%; }
+h1 a:hover                              { background-position: 4px -45px; }
+#header                                 { height: 144px; }
+#header ul                              { list-style-type: none; margin: 0; padding: 0; }
+#header li                              { background: url(/images/nav_sprites.png) no-repeat; float: left; height: 66px; margin: 0; overflow: hidden; padding: 0; text-indent: -10000px; width: 67px; }
+#header li.home                         { background-position: 0 0; }
+#header li.about                        { background-position: -80px 0; }
+#header li.work                         { background-position: -160px 0; }
+#header li.contact                      { background-position: -240px 0; }
+#header li.home:hover                   { background-position: 0 -70px; }
+#header li.about:hover                  { background-position: -80px -70px; }
+#header li.work:hover                   { background-position: -160px -70px; }
+#header li.contact:hover                { background-position: -240px -70px; }
+#home #header li.home                   { background-position: 0 -140px; }
+#about #header li.about                 { background-position: -80px -140px; }
+#writing #header li.work                { background-position: -160px -140px; }
+#contact #header li.contact             { background-position: -240px -140px; }
+#header li a                            { display: block; height: 100%; overflow: hidden; width: 100%; }
+
+/* content (global) */
+#content                                { font-size: 15px; line-height: 140%; }
+#content h2                             { font-family: Helvetica, Arial, sans-serif; font-size: 54px; font-weight: bold; line-height: 100%; margin: 0; padding: 0; }
+#content h2 a                           { color: #000; }
+#content a,
+#footer a                               { border-bottom: 1px dotted #8B8BFF; text-decoration: none; }
+#content a:hover,
+#footer a:hover                         { color: #B4271C; border-bottom: 1px dotted #B4271C; text-decoration: none; }
+
+/* home */
+#home #content h2                       { margin: 0 0 0 -5px; }
+#home #content h3                       { background: #FDFDFD; border: 1px solid #e6e6e6; color: #6A6A5F; font-size: 11px; margin: 0 0 14px 0; padding: 5px 0 7px 5px; }
+#home #content h4.comments              { background: #F7F7E0; border: 1px solid #C9C6C6; color: #6A6A5F; font-size: 11px; padding: 4px 0 5px 5px; }
+#home #content p                        { margin: 0 0 21px 0; padding-left: 5px; }
+#home #content .blogpost                { background: url(/images/postdivider.gif) no-repeat 50% 100% ; margin: 0 0 55px 0; padding: 0 0 55px 0; }
+#home #content .figure a                { display: block; height: 100%; width: 100%; }
+#home #content .figure a:hover          { border: none; }
+#home #content .figure-a                { background: #FDFDFD; border: 1px solid #e6e6e6; padding: 15px; text-align: center; }
+#home #content .figure-a:hover          { background: #F7F7E0; border: 1px solid #C9C6C6; }
+#home #content .banner a,
+#home #content .banner a:hover,
+#home #content .figure a,
+#home #content .figure a:hover          { border: none; }
+#home #content .figure-a img            { background: #fff; display: block; float: none; margin: 0 auto; padding: 15px; }
+#home .blogComments                     { background: #FDFDFD; border:1px solid #e6e6e6; color:#333333; font-size:12px; padding:18px; }
+#home .blogComment                      { border-bottom: 1px solid #e6e6e6; margin: 0 0 18px 0; padding: 0 0 18px 0; }
+#home .blogComment .byline              { font-size: 12px; color: #6A6A5F; padding: 5px 0 0 0; }
+#home .blogComment .byline img          { display: none; margin: 0; }
+
+/* about */
+#about #content .container h2.column    { float: left; }
+#about #content #facts                  { float: left; margin: 0 0 36px 0; }
+#about #content #facts h3               { border-bottom: 1px solid #e6e6e6; font-size: 18px; font-weight: bold; margin: 13px 0 0 0; padding: 5px; }
+#about #content #facts h4               { font-size: 15px; font-weight: bold; margin: 4px 0 0 0; padding: 5px 5px 0 5px; }
+#about #content #resume-teaser          { background: #ffc; border: 1px solid #fc9; color: #6A6A5F; height: 36px; margin-left: -378px; margin-top: -74px; }
+#about #content #resume-teaser p        { color: #333; display: block; float: left; font-size: 12px; line-height: 28px; margin: 0; padding: 5px 5px 5px 10px; }
+#about #content #resume-teaser strong   { color: #000; }
+#about #content #opinions               { float: right; margin: 0 0 36px 0; }
+#about #content #opinions h3            { border-bottom: 1px solid #e6e6e6; font-size: 18px; font-weight: bold; margin: 13px 0 0 0; padding: 5px; }
+#about #content #opinions h4            { font-size: 15px; font-weight: bold; margin: 4px 0 0 0; padding: 5px 5px 0 5px; }
+#about #content #opinions blockquote    { background-color: #FDFDFD; border: 1px solid #e6e6e6; margin: 0; }
+#about #content #opinions blockquote p  { color: #333; font-size: 20px; line-height: 120%; margin: 0; padding: 15px; }
+.quotemark                              { font-family: Georgia; padding-right: 5px; }
+#about #content #opinions cite          { display: block; margin-top: -20px; text-align: right; }
+#about #content p                       { margin: 5px 0 0 0; padding-left: 5px; }
+#about #content ul                      { padding-top: 5px; }
+#about #content p, ul, li               { font-size: 15px; }
+
+/* resume */
+#resume #intro                          { background: #FDFDFD; border: 1px solid #e6e6e6; color: #6A6A5F; margin: 0 0 14px 0; padding: 5px; }
+#resume #intro *                        { font-size: 12px; margin: 0; padding: 0; }
+#resume #intro h3                       { font-weight: bold; margin: 0 0 3px 0; }
+#resume #maininfo h3,
+#resume #maininfo h4,
+#resume #maininfo h5,
+#resume #maininfo h6,
+#resume #maininfo p                     { font-weight: normal; margin: 0; padding: 0 5px; }
+#resume #maininfo h3,
+#resume #maininfo h4                    { margin: 18px 0 0 0; }
+#resume #maininfo h6                    { font-size: 12px; margin: 0; }
+#resume #maininfo h3                    { border-bottom: 1px solid #e6e6e6; margin: 36px 0 0 0; padding: 5px; }
+#resume #maininfo ul                    { margin-bottom: 0; }
+
+/* contact */
+#contact address                        { display: inline; margin: 0; }
+#contact h3                             { border-bottom: 1px solid #e6e6e6; margin: 18px 0 5px; padding-bottom: 5px; padding-left: 5px; }
+
+/* footer */
+#footer                                 { border-bottom: 1px dotted #999; color: #6A6A5F; }
+#footer .widget                         { float: left; font-size: 12px; margin: 0 10px 0 0; width: 238px; }
+#footer h5                              { border-bottom:1px dotted #999; border-top:3px solid #ccc; margin: 0 0 5px 0; padding: 2px 5px 3px; }
+#footer h6,
+#footer p                               { padding-left: 5px; }
+#footer ul                              { margin: 8px 0 10px; }
+#footer li                              { font-size: 12px; margin: 3px 5px 0 18px }
+#footer .last                           { margin: 0; }
+#footer #archivemenu                    { margin-bottom:5px; margin-top:5px; width:100%; }
+#footer #emailupdateform                { background: #f5f5f5; border: 1px solid #ccc; margin: 10px 0 0 0; padding: 5px; }
+#footer #emailupdateform p              { margin: 0 0 5px; }
+#footer #emailupdateform #emailinput    { width: 140px; }
+#copyright                              { background: url(/images/postdivider.gif) no-repeat 50% 55px; float: left; font-size: 11px; padding: 110px 0 0 0; text-align: center; width: 100%; }

@@ -1,0 +1,45 @@
+/*****
+alabut.com - version six.
+
+
+
+Some rights reserved. This work is licensed by Al Abut
+under a Creative Commons License
+(Attribution-NonCommercial-ShareAlike 2.0)
+
+
+
+created for 2005 with tender loving care. enjoy.
+feel free to dig in and learn - that's how I got here.
+just don't rip me off or I'll have to hunt you down.
+*****/
+
+
+
+
+
+
+/*****
+replace the banner image with the new worn look
+*****/
+
+h1 {
+	background: url(../graphics_2005/logo_worn.jpg) no-repeat 50% 50%;
+	border: 1px solid #ccc;
+	height: 140px;
+	padding: 1px;
+}
+
+h1 a, h1 a:visited {
+	display: block;
+	height: 0 !important;
+	height /**/:140px; /* for IE5.5's bad box model */
+	margin-left: 229px;
+	overflow: hidden;
+	padding-top: 140px;
+	width: 324px;
+}
+
+h1 a:hover, h1 a:visited:hover {
+	background: transparent;
+}

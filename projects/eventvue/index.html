@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Al Abut - EventVue redesign</title>
+		<link rel="stylesheet" href="../../css/blueprint/screen.css" type="text/css" media="screen, projection">	
+        <link rel="stylesheet" href="../../css/blueprint/print.css" type="text/css" media="print">
+		<!--[if IE]><link rel="stylesheet" href="../../css/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+		<!-- <link rel="stylesheet" href="../../css/sifr-screen.css" type="text/css" media="screen" />
+		      <link rel="stylesheet" href="../../css/sifr-print.css" type="text/css" media="print" />
+		      <script src="../../js/sifr.js" type="text/javascript"></script> -->
+		<link rel="stylesheet" href="../../css/main_local.css" type="text/css" media="screen" />
+	</head>
+	<body id="work">
+		<div class="container">
+		    <div id="header" class="span-12">
+    			<h1 class="span-2"><a href="/" title=":: Al Abut :: Home Page ::">Al Abut</a></h1>
+    			<ul id="top-nav" class="span-10 push-2 last">
+    				<li class="home"><a href="/">home</a></li>
+    				<li class="about"><a href="/about.html">about</a></li>
+                    <li class="work"><a href="/work.html">work</a></li>
+    				<li class="contact"><a href="/contact.html">contact</a></li>
+    			</ul>
+		    </div>
+		    <!-- end header -->
+		    <div id="content" class="span-12">
+		        <div id="intro" class="container">
+    				<h2>Redesign of EventVue signup</h2>
+    				<!--
+    				    TODO move inline styles for this custom page to the stylesheet
+    				-->
+    				<!-- <h4 style="padding: 30px 0 0 0;"><em>Hello Josh and Rob - I hope you like the work below! If anything's unclear or you have questions, feel free anytime to drop me a line at <a href="mailto:alabut@gmail.com?subject=mockups%20of%20redesigned%20EventVue%20login">alabut@gmail.com</a> or ping me on IM at <a href="aim:GoIM?ScreenName=alperabut&message=Hey, let's talk about the EventVue mockups!">alperabut on AIM</a> (it'll go to my cell if I'm not online). Thanks!</em></h4> -->
+		        </div>
+		        <!-- end intro container -->
+				<div id="companies">
+				    <div id="eventvue" class="company">
+        				<h4 style="margin-top: 20px;">Requirements:</h4>
+        				<ol>
+							<li>increase number of signups</li>
+							<li>clearly explain the value of EventVue</li>
+							<li>highlight and explain alternative logins, while minimizing the clashing logos</li>
+        				</ol>
+        				<!-- <h4>Introduction</h4>
+        				        				
+        										<p>Ok, here's my mockups of a redesigned login screen to kick off your weekend with, except you get two for the price of one:</p>
+        										<ol style="padding-bottom: 30px;">
+        											<li>a more incremental change that leaves the header and footer of the page the same, keeps the same 3-page flow (login info, privacy, notifications) and redesigns only the body content area.</li>
+        											<li>the "ideal" version that makes close to the maximum amount of changes and shows a few lessons learned from making the diddit landing page in September.</li>
+        										</ol>
+        										<p>I figured I'd give a graded approach since I didn't know how much of the page was actually up for modification. Plus that also gives a transition strategy from the current login to the final one, if it's programmatically difficult to toss and merge a bunch of stuff like the second mock advocates.</p> -->
+						
+        				<h4>Existing Design</h4>
+
+						<p>Before going over the mockups, let's go over what it is about the current design that might give hiccups in the user experience. Here's the screenshot I was given to redesign as homework:</p>
+
+                        <dl class="superbanner eventvue">
+                            <dt><img alt="" src="../../images/work/eventvue_original.jpg" /></dt>
+                            <dd>existing EventVue login screen (Nov 2008)</dd>
+                        </dl>
+
+                        <p>First off, there is a lot of structure for a simple account creation page and it feels a bit heavy, due to all the rows and columns of text that the first time user has to digest before figuring out the purpose of the page. There's a header with two rows of navigation and it's not exactly clear how someone got here and where the next step is ("how did I get a deep link into a site that I'm not registered for? where on the site am I?"), especially since it's not only *not* the conference website, there's no logo or company name to let me know what website I'm on.</p>
+
+                        <p>Then there's three columns of stuff under that - there's a registration form for an unclear service, a bunch of other login items in the middle column that still don't explain anything, then finally in the lower right (the least visually prominent area) is a logo for the conference and a prompt to log in, but without an explanation why and bunched together with other stuff surrounding it (more signin options, privacy policy, etc). That's a lot of horizontal stuff to scan! <strong>Anything more than 2 columns doesn't tend to do well on the web</strong> and, conversely, one column of stacked content does the best.</p>
+
+                        <p>So! There's a lot of stuff, things that probably grew a bit unruly over time. Let's roll up the sleeves and do some housecleaning to put things in a better order.</p>
+						
+        				<h4>Redesigned Login (Incremental Changes Version)</h4>
+
+                        <p>First off, the most important thing to ease a transition to a new site is to reassure the visitor that they're in the right place. Hit em with the logo of the conference they're going to so they can orient themselves, then offer up a quick welcome message (if possible, personalized with their name but with at least the conference name), and then close with a brief one sentence description of all the cool things they can do behind the velvet rope.</p>
+
+                        <p>It's like the handshake and sales pitch before asking for their credit card. Now that they've been properly prepped, you can ask them to fill out some basic info, with the genuinely-useful-but-confusing-to-non-geeks options for alternative logins (facebook, etc) tucked right under the header and without the distracting logos. It's a quick one liner that can be safely ignored by most people, yet it's still in a prominent location and easily available for those that know what they mean.</p>
+
+                        <dl class="superbanner eventvue">
+                            <dt><img alt="" src="../../images/work/eventvue_login_incremental.png" /></dt>
+                            <dd>redesigned login ("incremental change" version)</dd>
+                        </dl>
+
+						<p>A few other bits of polish:</p>
+						
+						<ul>
+							<li><strong>the privacy policy needs to be easily ignorable</strong> - it's non-critical info and should be treated that way.</li>
+							<li><strong>numbering the subnav gives a hint of where they are</strong> and how long they've got to go.</li>
+							<li><strong>the entire layout adheres to a strict 8 column layout</strong> from the subnav down so that the page feels tighter, with disparate elements lining up along an invisible grid.</li>
+						</ul>
+
+						<p>Great! That's definitely progress. But we can do better.</p>
+						
+        				<h4>Redesigned Login (Ideal Version)</h4>
+
+						<p>The most important thing I learned when making a similar landing page for diddit was a particularly humbling lesson as a designer - when it came to making a new account, it didn't really matter how good the page and forms looked and how well-written the welcome messages was, all other factors paled in comparison to simply <strong>removing absolutely everything non-essential</strong> to the task of registration. This came after a bit of research into how leading sites handled invites. <!-- Screenshots below show what a person sees when they're invited to flickr, facebook or espn's fantasy football --> Digging around the invite and signup process for Flickr, Facebook and ESPN's fantasy football was very interesting - in all cases, the usual top navigation and links were removed in place of a simple logo, and the bulk of the page consisted of a form for signing in.</p>
+
+						<!-- <p>[graphics of flickr, facebook, flickr, etc, or links to them]</p> -->
+
+						<p>It was this task of <strong>stripping away all cruft and making dedicated account creation pages</strong> for the diddit landing pages <strong>that boosted signups by 50%</strong>. So let's take the same approach with EventVue:</p>
+						<ul>
+							<li>strip out all of the top navigation, remove both rows of links - replace them with a skinny thin strip of a subheader with neutral colors and minimal branding.</li>
+							<li>take all of the form fields in the second and third pages and combine them into one easily-scannable form on the landing page.</li>
+							<li>give the same neutral colors and minimal treatment to the footer -  remove all the distracting blocks of color and focus the attention on the body of the page.</li>
+						</ul>
+
+                        <dl class="superbanner eventvue">
+                            <dt><img alt="" src="../../images/work/eventvue_login_ideal.png" /></dt>
+                            <dd>redesigned login ("ideal" version)</dd>
+                        </dl>
+
+						<p>The changes to some of the form fields included making the checkboxes under "profile" into radio buttons instead (since only one option at a time can be selected) and removing some of the extra verbiage about the privacy and notification options, since the features themselves are self-explanatory (for the most part - I'm concerned most people going to non-technical conferences don't know what blog posts and tweets are and therefore maybe they shouldn't be presented with unfamiliar technical jargon upfront).</p>
+							<p>The other bit of polish was to clearly make the form submit control a button and give it a bit of shine, so it sticks out from the rest of the text on the page.</p>
+						
+						<p>Some possible next steps would probably include doing an audit of the form elements and asking if it's the absolute least amount of info somebody needs to give in order to make their EventVue experience meaningful, and if not, then condensing and removing some of the options. I suspect we could streamline the login further by setting some reasonable defaults and let people change them from their settings panel if they want.</p>
+						
+        				<!-- <h4>Thanks And Goodnight!</h4>
+        										<p>And that's it, I hope this is the kind of kung fu you're looking for! It was cool meeting you cats and thanks again for the great mini-vacation in Boulder.</p>
+        										<img style="padding: 30px;" alt="" src="../../images/signature_small.gif" /> -->
+				    </div>
+				    <!-- end company eventvue -->
+				</div>
+				<!-- end companies -->
+		    </div>
+		    <!-- end content -->
+            <p id="copyright">Some rights reserved. This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/InteractiveResource" rel="dc:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://alabut.com/" property="cc:attributionName" rel="cc:attributionURL">Al Abut</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+		</div>
+		<!-- end container -->
+		<!--
+		  TODO turn on sifr or monkey with the font sizes to get it right w/o fucking up flashless rendering
+		-->
+		<script type="text/javascript">
+		//<![CDATA[
+		/* sIFR technique - replace headlines with flash text */
+		// if(typeof sIFR == "function"){
+		//            sIFR.replaceElement(named({sSelector:"h2", sFlashSrc:"swf/helvetica lt 97 black condensed.swf", sHoverColor:"#B4271C", sFlashVars:"offsetLeft=5"}));
+		//        }
+		//]]>
+		</script>
+		<script type="text/javascript" src="../../js/smoothscrolling.js">
+        </script>
+		<script type="text/javascript" src="../../js/smoothscrolling.js">
+        </script>
+	</body>
+</html>

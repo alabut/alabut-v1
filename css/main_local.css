@@ -1,0 +1,165 @@
+
+/* header (logo and nav) */
+body                                    { background: url(../images/header.png) repeat-x; margin: 0; }
+h1                                      { float: left; height: 40px; margin: 0; overflow: hidden; }
+h1 a                                    { background: url(../images/logo.png) no-repeat 4px 5px; display: block; height: 100%; overflow: hidden; text-indent: -10000px; width: 100%; }
+h1 a:hover                              { background-position: 4px -45px; }
+#header                                 { height: 144px; }
+#header ul                              { list-style-type: none; margin: 0; padding: 0; }
+#header li                              { background: url(../images/nav_sprites.png) no-repeat; float: left; height: 66px; margin: 0; overflow: hidden; padding: 0; text-indent: -10000px; width: 67px; }
+#header li.home                         { background-position: 0 0; }
+#header li.about                        { background-position: -80px 0; }
+#header li.work                         { background-position: -160px 0; }
+#header li.contact                      { background-position: -240px 0; }
+#header li.home:hover                   { background-position: 0 -70px; }
+#header li.about:hover                  { background-position: -80px -70px; }
+#header li.work:hover                   { background-position: -160px -70px; }
+#header li.contact:hover                { background-position: -240px -70px; }
+#home #header li.home                   { background-position: 0 -140px; }
+#about #header li.about                 { background-position: -80px -140px; }
+#work #header li.work                   { background-position: -160px -140px; }
+#contact #header li.contact             { background-position: -240px -140px; }
+#header li a                            { display: block; height: 100%; overflow: hidden; width: 100%; }
+
+/* content (global) */
+#content                                { font-size: 15px; line-height: 140%; }
+#content h2                             { font-family: Helvetica, Arial, sans-serif; font-size: 54px; font-weight: bold; letter-spacing: -2px; line-height: 100%; margin: 0; padding: 0; }
+#content h2 a                           { border: none; color: #000; }
+#content h2 a:hover                     { border: none; }
+#content a,
+#footer a                               { border-bottom: 1px dotted #8B8BFF; text-decoration: none; }
+#content a:hover,
+#footer a:hover                         { color: #B4271C; border-bottom: 1px dotted #B4271C; text-decoration: none; }
+
+/* home */
+#home #content h2                       { margin: 0 0 5px 5px; }
+#home #content h3                       { background: transparent url(../images/timestamp.gif) no-repeat; margin: 0 0 14px 0; padding: 5px 0 0 0;}
+#home #content h3 strong                { background: transparent url(../images/timestamp.gif) no-repeat left bottom; color: #fff; display: block; font-size: 14px; height: 18px; padding: 0 0 7px 5px; width: 100%; }
+#home #content h4.comments              { background: #F7F7E0; border: 1px solid #C9C6C6; color: #6A6A5F; font-size: 11px; padding: 4px 0 5px 5px; }
+#home #content p                        { margin: 0 0 21px 0; padding-left: 5px; }
+#home #content .blogpost                { background: url(../images/postdivider.gif) no-repeat 50% 100%; float: left; margin: 0 0 36px 0; padding: 0 0 20px 0; width: 100%;}
+#home #content .banner img              { float: none; margin: 0 0 0 -5px; padding: 0; }
+#home #content .figure                  { background: #FDFDFD; border: 1px solid #e6e6e6; padding: 15px; text-align: center; }
+#home #content .figure:hover            { background: #F7F7E0; border: 1px solid #C9C6C6; }
+#home #content .figure img              { background: #fff; display: block; float: none; margin: 0 auto; padding: 15px; }
+#home #content .banner a,
+#home #content .figure a                { display: block; height: 100%; width: 100%; }
+#home #content .banner a,
+#home #content .banner a:hover,
+#home #content .figure a,
+#home #content .figure a:hover          { border: none; }
+#home #content .figure-b                { margin: 0 0 10px 10px; }
+#home #content .figure-b,
+#home #content .figure-b a,
+#home #content .figure-b img            { float: right; }
+#home #content .figure-c                { margin: 0 10px 10px 0; }
+#home #content .figure-c,
+#home #content .figure-c a,
+#home #content .figure-c img            { float: left; }
+#home .blogComments                     { background: #FCF0DC; border: 1px solid #C9C6C6; float: left; margin-bottom: 56px; }
+#home .blogComments h4                  { color: #000; font-size: 32px; margin: 18px 0 12px 18px; padding: 0; }
+#home .blogComment                      { background: #FDFDFD; border: 1px solid #e6e6e6; color: #333; font-size: 12px; margin-left: 18px; width: 696px; }
+#home .blogCommentCreate                { background: transparent; border: none; font-size: 16px; margin-left: 10px; }
+#home .blogComment .byline              { font-size: 12px; color: #6A6A5F; padding: 5px 0 0 0; }
+#home .blogComment .byline img,
+#home .blogComment .comment-icon        { display: none; margin: 0; }
+
+/* about */
+#about #content .container h2.column    { float: left; }
+#about #content #facts                  { float: left; margin: 0 0 36px 0; }
+#about #content #facts h3               { border-bottom: 1px solid #e6e6e6; font-size: 18px; font-weight: bold; margin: 13px 0 0 0; padding: 5px; }
+#about #content #facts h4               { font-size: 15px; font-weight: bold; margin: 4px 0 0 0; padding: 5px 5px 0 5px; }
+#about #content #resume-teaser          { background: #ffc; border: 1px solid #fc9; color: #6A6A5F; height: 36px; margin-left: -378px; margin-top: -74px; }
+#about #content #resume-teaser p        { color: #333; display: block; float: left; font-size: 12px; line-height: 28px; margin: 0; padding: 5px 5px 5px 10px; }
+#about #content #resume-teaser strong   { color: #000; }
+#about #content #opinions               { float: right; margin: 0 0 36px 0; }
+#about #content #opinions h3            { border-bottom: 1px solid #e6e6e6; font-size: 18px; font-weight: bold; margin: 13px 0 0 0; padding: 5px; }
+#about #content #opinions h4            { font-size: 15px; font-weight: bold; margin: 4px 0 0 0; padding: 5px 5px 0 5px; }
+#about #content #opinions blockquote    { background-color: #FDFDFD; border: 1px solid #e6e6e6; margin: 0; }
+#about #content #opinions blockquote p  { color: #333; font-size: 20px; line-height: 120%; margin: 0; padding: 15px; }
+.quotemark                              { font-family: Georgia; padding-right: 5px; }
+#about #content #opinions cite          { display: block; margin-top: -20px; text-align: right; }
+#about #content p                       { margin: 5px 0 0 0; padding-left: 5px; }
+#about #content ul                      { padding-top: 5px; }
+#about #content p, ul, li               { font-size: 15px; }
+
+/* resume */
+#resume #intro                          { background: #FDFDFD; border: 1px solid #e6e6e6; color: #6A6A5F; margin: 0 0 14px 0; padding: 5px; }
+#resume #intro *                        { font-size: 12px; margin: 0; padding: 0; }
+#resume #intro h3                       { font-weight: bold; margin: 0 0 3px 0; }
+#resume #maininfo h3,
+#resume #maininfo h4,
+#resume #maininfo h5,
+#resume #maininfo h6,
+#resume #maininfo p                     { font-weight: normal; margin: 0; padding: 0 5px; }
+#resume #maininfo h3,
+#resume #maininfo h4                    { margin: 18px 0 0 0; }
+#resume #maininfo h6                    { font-size: 12px; margin: 0; }
+#resume #maininfo h3                    { border-bottom: 1px solid #e6e6e6; margin: 36px 0 0 0; padding: 5px; }
+#resume #maininfo ul                    { margin-bottom: 0; }
+
+/* work */
+#work #intro #resume-teaser             { background: #ffc; border: 1px solid #fc9; color: #6A6A5F; min-height: 36px; margin-left: 264px; margin-top: -98px; }
+#work #intro #resume-teaser p           { color: #333; display: block; float: left; font-size: 12px; line-height: 16px; margin: 0; padding: 5px 5px 5px 10px; }
+#work #intro #resume-teaser strong      { color: #000; }
+#work #intro h3                         { margin: 22px 0 11px; }
+#work #intro h4                         { line-height: 24px; margin: 0; }
+#work h2 a                              { color: #009; font-size: 12px; font-weight: normal; letter-spacing: 0; }
+#work .subnav                           { float: left; margin: 37px 0 0 -116px; width: 114px; }
+#work .paybackable-on                   { margin-top: 37px; }
+#work .subnav li                        { background: url(../images/nav_sprites.png) no-repeat; float: left; height: 23px; list-style: none; width: 114px; text-indent: -10000px;}
+#work .subnav a                         { border: none; display: block; height: 100%; outline: none; width: 100%; }
+#work .subnav .asterpix                 { background-position: 0 -340px;  }
+#work .subnav .paybackable              { background-position: -150px -340px; }
+#work .subnav .socialmedia              { background-position: -300px -340px; }
+#work .subnav .asterpix:hover           { background-position: 0 -380px; }
+#work .subnav .paybackable:hover        { background-position: -150px -380px; }
+#work .subnav .socialmedia:hover        { background-position: -300px -380px; }
+#work .asterpix-on .asterpix,
+#work .asterpix-on .asterpix:hover      { background-position: 0 -300px; }
+#work .paybackable-on .paybackable,
+#work .paybackable-on .paybackable:hover    { background-position: -150px -300px; }
+#work .socialmedia-on .socialmedia,
+#work .socialmedia-on .socialmedia:hover    { background-position: -300px -300px; }
+#work .anchor-link                      { text-indent: -10000px; }
+#work .company                          { border: 1px solid #ccc; padding: 10px; margin: 37px 0 0 0; }
+#work #companies h2                     { border-bottom: 5px solid #F5F5F5; margin-bottom: 11px; padding-bottom: 6px; }
+#work #companies h3                     { margin:16px 0 5px; }
+#work #companies h4                     { clear: both; font-weight: bold; margin-top: 44px; margin-bottom: 11px; }
+#work #companies h4 a                   { color: #000; border: none; }
+#work #companies ol                     { border-bottom: 5px solid #F5F5F5; margin-bottom: -27px; margin-left: 0; padding-bottom:20px; }
+#work #companies ol li                  { line-height: 24px; margin-left: 32px; }
+#work h5                                { clear: both; margin-top: 22px; margin-bottom: 11px; }
+#work p                                 { margin-bottom: 11px; }
+#work .clear                            { clear: both; }
+#work dl                                { text-align: center; }
+#work dt                                { border-color: #ccc #999 #ccc #ccc; border-style: solid; border-width: 1px; padding: 5px; }
+#work dd                                { background: #f5f5f5; border-color: #fff #999 #999 #ccc; border-style: solid; border-width: 1px; font-style: italic; margin: 0; padding: 5px; }
+#work dl img                            { margin: 0; }
+#work dl.inset                          { float: left; margin: 0 22px 22px 0; }
+#work dl.alt                            { float: right; margin: 0 0 22px 22px; }
+#work dl.last                           { margin-bottom: 44px; }
+#work dl.superbanner                    { background: #fff; margin-left: -60px; width: 895px; }
+#work #eventvue dl.superbanner          { margin-left: -83px; width: 940px; }
+#work #elated dl.superbanner          	{ margin-left: -74px; }
+
+
+
+/* contact */
+#contact address                        { display: inline; margin: 0; }
+#contact h3                             { border-bottom: 1px solid #e6e6e6; margin: 18px 0 5px; padding-bottom: 5px; padding-left: 5px; }
+
+/* footer */
+#footer                                 { border-bottom: 1px dotted #999; color: #6A6A5F; padding: 0 0 36px 0; }
+#footer .widget                         { float: left; font-size: 12px; margin: 0 28px 0 0; width: 238px; }
+#footer h5                              { border-bottom: 1px dotted #999; border-top:3px solid #ccc; margin: 0 0 5px 0; padding: 2px 5px 3px; }
+#footer h6,
+#footer p                               { padding-left: 5px; }
+#footer ul                              { margin: 8px 0 10px; }
+#footer li                              { font-size: 12px; margin: 3px 5px 0 18px }
+#footer .last                           { margin: 0; }
+#footer #archivemenu                    { margin-bottom:5px; margin-top:5px; width: 100%; }
+#footer #emailupdateform                { background: #f5f5f5; border: 1px solid #ccc; margin: 10px 0 0 0; padding: 5px; }
+#footer #emailupdateform p              { margin: 0 0 5px; }
+#footer #emailupdateform #emailinput    { width: 140px; }
+#copyright                              { float: left; font-size: 11px; padding: 36px 0 0 0; text-align: center; width: 100%; }

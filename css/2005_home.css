@@ -1,0 +1,38 @@
+/*****
+alabut.com - version six.
+
+
+
+Some rights reserved. This work is licensed by Al Abut
+under a Creative Commons License
+(Attribution-NonCommercial-ShareAlike 2.0)
+
+
+
+created for 2005 with tender loving care. enjoy.
+feel free to dig in and learn - that's how I got here.
+just don't rip me off or I'll have to hunt you down.
+
+
+
+these two styles serve only one purpose: creating
+fading preloader effect for the photo banner on the
+home page, along with the photoload.js javascript file.
+*****/
+
+#photoholder {
+/*	background: #E6E6E6 url(../graphics_2005/preload_graphic.gif) 50% 50% no-repeat;*/
+	background: #ccc url(/graphics_2006/spinner_grey.gif) 50% 50% no-repeat;
+	border: 1px solid #999;
+	height: 301px;
+	margin: 15px 0 17px 0;
+	width: 780px;
+}
+
+#photoholder img {
+	padding: 1px;
+}
+
+#photoholder-big, #photoholder-big img {
+	display: none;
+}

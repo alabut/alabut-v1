@@ -1,0 +1,17 @@
+#ext-comp-1007 {
+	background-image: url(tablebg_upload.png);
+}
+
+.x-panel-tl .x-panel-header {
+	color: #fff;
+	font-family: helvetica,verdana,sans-serif;
+	font-size: 14px;
+	letter-spacing: -0.5px;
+	text-indent: -1000px;
+}
+
+.x-panel-tl,
+.x-panel-tr,
+.x-panel-tc {
+	background-image: none;
+}

@@ -1,0 +1,76 @@
+Al Abut
+Freelance interaction and UI designer
+
+http://www.alabut.com
+alabut@gmail.com
+(858) 603-1820
+
+
+EMPLOYMENT
+----------
+Interaction Designer
+Ludic Labs
+(October 2007 - November 2008)
+* Designed new and existing features using task analysis diagrams, personas, iterative visual prototypes and other user-centered design principles.
+* Conducted usability tests in the field with sample users and creating review documentation.
+* Designed web pages and related creative assets using Fireworks, OmniGraffle and Photoshop.
+* Coded web pages into HTML and CSS with Django templates.
+
+
+Senior Designer
+Social Media, Palo Alto, CA
+(August - October 2007)
+* Created prototypes, designs and markup of Facebook apps for an application network with millions of daily users.
+* Projects included games, boutique sites, advertising banners and website redesigns.
+* Worked closely with a cross-functional group from project inception to completion to define and create satisfying user experiences.
+
+
+Web Designer & Flash/Flex Developer
+Asterpix, San Jose, CA
+(March - August 2007)
+* Prototyped and built the UI for a Flash/Flex video-playing client, implemented with Fireworks, Actionscript 3.0 and Flex.
+* Created website: logo design, branding, HTML/CSS and Django templates.
+
+Flash Developer
+Wagerworks, San Francisco, CA
+(December 2005 - March 2007)
+* Created online casino games for the UK market.
+* Programmed in Actionscript using OOP (prototype-based classes) and XML.
+* Worked on a multi-disciplinary team of artists, Flash developers and Java programmers.
+
+Founder/Owner
+alabut.com
+(October 2004 - November 2005)
+* Freelanced for a year, specializing in standards-compliant XHTML/CSS and Actionscript-heavy Flash.
+* Companies included design firms and advertising agencies.
+
+Programmer/Analyst I/II
+University of California San Diego
+(December 2000 -  October 2004)
+* First webmaster of the Division of Biological Sciences, created and redesigned their websites, with XML/XSLT for data-heavy sections, and made Flash slideshows for special occasions.
+* Lead web developer for an environmental research initiative, the Superfund Basic Research Program.
+* Made Flash documentaries about scientists doing environmental research and used video, audio, pictures and text to tell engaging narratives.
+
+
+SKILLS
+------
+Lots of experience:
+HTML, XHTML, CSS, W3C standards, UI design, information architecture, iterative prototyping, usability testing, interaction design and task analysis, Fireworks, Flash, Actionscripting 1.0
+
+Less experience:
+Flex, Actionscripting 2.0/3.0, Javascript/AJAX, PHP, MySQL, Ruby/Rails, Python/Django, XML/XSLT
+
+
+CONFERENCES/WORKSHOPS
+---------------------
+* Adobe MAX 2006: large annual event focusing on upcoming Adobe developments, with an emphasis on Flash, Flex and AIR.
+* DUX 2003: joint conference on interactive digital design (June 03)
+* AIGA Experience Design: Sixth Advance for Design Summit (June 03, presented short talk on case study implementation)
+* Adaptive Path: The Business of Experience Design (June 03)
+* Edward R. Tufte: Presenting Data and Information (Jan 03)
+* Adaptive Path: Designing for the User Experience (Oct 02)
+
+
+EDUCATION
+---------
+Undergraduate: University of California San Diego, Political Science

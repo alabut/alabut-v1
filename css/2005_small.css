@@ -1,0 +1,122 @@
+/*****
+alabut.com - version six.
+
+
+
+this is the stylesheet that is triggered by a javascript
+sniffer for browser window sizes under 850 pixels wide.
+all it really does is 1) remove the photo banner on the
+home page and 2) convert all widths from px to %.
+
+
+
+Some rights reserved. This work is licensed by Al Abut
+under a Creative Commons License
+(Attribution-NonCommercial-ShareAlike 2.0)
+
+
+
+created for 2005 with tender loving care. enjoy.
+feel free to dig in and learn - that's how I got here.
+just don't rip me off or I'll have to hunt you down.
+*****/
+
+
+
+
+
+
+/*****
+home page
+*****/
+
+#photoholder, #photoholder img {
+	background-image: none;
+	display: none;
+}
+
+
+
+
+
+
+/*****
+page layout
+*****/
+
+#page_outer {
+	width: 90%;
+}
+
+
+
+
+
+
+/*****
+nameplate header and photo banner
+*****/
+
+h1 a:hover, h1 a:visited:hover {
+	background-image: none;
+}
+
+
+
+
+
+
+/*****
+content and sidebar
+	(main = 3/4 and left)
+	(pages: writing, writing-archives)
+*****/
+
+#location-writing-archives #content {
+	width: 65%;
+}
+
+#location-writing-archives #sidebar {
+	width: 20%;
+}
+
+
+
+
+
+
+/*****
+content and sidebar
+	(main = half and half)
+	(pages: about, writing, contact, home)
+*****/
+
+#location-about #column-one, #location-about #column-two,
+#location-404 #column-one, #location-404 #column-two,
+#location-writing #content, #location-writing #sidebar,
+#location-contact #content, #location-contact #sidebar,
+#location-home #featured-project, #location-home #latest-writing {
+	width: 45%;
+}
+
+
+
+
+
+
+/*****
+content and sidebar
+	(main = 3/4 and right)
+	(pages: portfolio)
+*****/
+
+#location-portfolio #content {
+	color: #1A1A1A;
+	float: right;
+	font-size: 12px;
+	width: 65%;
+}
+
+#location-portfolio #sidebar {
+	width: 20%;
+}

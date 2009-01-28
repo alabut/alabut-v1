@@ -1,0 +1,43 @@
+h1. GENERAL NOTES
+
+This is my current leading theory for the role of the newsletter: it's less of a place to highlight featured products since the home page of the site already does the "hard sell" by featuring items right away, and needs more of a "soft sell" approach in order to build an audience, act as a fan club or forum, provide interesting food-related info and generally humanize Foodzie to the interested masses.
+
+*Idea for the future*: what about different versions of the newsletter?
+* blog-only content (definitely the default content for now)
+* editorial newsletter-focused content (always sounds great, until somebody has to write up that month's newsletter article :) so I like the strategy of distributing the month's articles across the whole team by culling their blog posts from the last 4 weeks instead)
+* product-focused "featured products" version
+
+All things to definitely consider over the medium to long term.
+
+
+
+h1. PUBLISHING SCHEDULE
+
+*proposed frequency: monthly.*
+
+A schedule of blog post types would really help, and by "schedule", I mean less of a deadline-driven one ("Bargain Tuesdays!" etc, although that's cool too, it just takes a lot more discipline and structure, so it feels like homework). What I mean is more like *a list of topics and blog post types* that the foodzie team makes sure they cover every month, so that way each of the content types is available for inclusion in the newsletter. For content type examples (list of links, interview w/ a producer, etc) see below under "FEATURES".
+
+
+
+h1. FEATURES
+
+*two main buckets* for the product roadmap:
+
+1) *doable now* - possible content types to include right away
+
+2) *for later* - great ideas to be used when building Newsletter 2.0
+
+*"now" content types:*
+
+* *summarized blog posts* - you'll have a good idea of popular posts by then end of the month, whether by visitors or number of comments.
+* *featured products* - instead of picking something at random to peddle, it'd be great to give the backstory of a particular item, like the VH1 Behind The Music treatment. Cheese, for example, is frigging fascinating - you can really taste the difference depending on the type of animal, what food they eat, if they're milked only seasonally or year-round, etc.
+* *background info on the team and their appearances* - this type of personality-driven rockbandism isn't for all companies but could work really well for small web-savvy and transparency-friendly teams like foodzie. building a cult of personality around the people that create foodzie dovetails nicely w/ the company mission of humanizing the people that bring food to your table. one example that's a low-hanging fruit - display selected twitter statuses of the various team members, like Rob drinking Blue Bottle coffee, Emily's boast about the 12-hour road trip to the new offices, etc.
+* *video clips* - suzanne's interest in capturing food producers w/ documentary style video would work well for the newsletter audience, as well as other videos that we can come up with, like of the foodzie team or customers. *dream scenario:* every foodzie employee has a Flip (and/or tiny digital still camera) and carries it around at all times, ready to capture something new they're having (excellent idea Nik!). I'd really love the Ed TV and Gary V's wine.tv approach and see video clips of all kinds of things, like you guys exploring your new hometown of SF, my rants about the excellent rolled tacos when I visit family in San Diego, etc.
+* *customer and producer testimonials* - quotes, interviews, background info on the people that make and eat foodzie's products.
+* *interesting food websites and links from around the web* - this one could be easier than it sounds, all you need is at least one blog post aggregating cool links around the web w/ or w/o short descriptions of each. and over the long term, its value is proportionate to however much you *don't* link to foodzie-only resources and highlight the *rest of the web* instead. the more people treat your newsletter as an authorative voice on food-related topics, the more they'll come back over time and listen to what you have to say. make your site *elastic instead of sticky* - elastic means they leave but come back all the time (google's the ultimate example)
+
+
+*"later/wishlist" content:*
+
+* job and internship openings w/ producers - there's gotta be indie food producers that need a hand
+* cool industry events (maybe put together our own workshops? would they be focused startup or food topics? both?)

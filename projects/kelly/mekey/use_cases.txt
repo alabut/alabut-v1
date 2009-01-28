@@ -1,0 +1,26 @@
+initial use cases
+
+1) landing page for random web surfer
+2) welcome page and account creation for a new invited user
+3) address book for people with contacts
+
+
+use case #1 - random visitors
+	- marketing text, product tour, faq, screencast, etc
+
+
+use case #2 - new users
+	- more customized than generic
+	- *one line* explanation of MeKey benefit
+	- show invitee's contact info, not just account prompt (soft sell - first taste is always free)
+	- ask for least amount of info needed to start an account (name + password)
+	- prompt for more profile info (clearly mark as optional and reassure privacy concerns)
+	- quick explanation of how to add contacts
+
+
+use case #3 - repeat visitor, possibly w/ multiple contacts
+	- recently added contacts
+	- recently updated
+	- frequently contacted
+	- A-Z name list
+	- list by contact type (phone number, flickr, linkedin, etc)

@@ -1,0 +1,57 @@
+html/css
+
+nik - backend programmer
+
+emily - marketing, with producers
+
+rob - business dev, seed round, design until bringing contractor
+
+
+
+notes:
+
+2 week releases
+
+rails backend - covered
+
+grids.css
+
+cuban council branding - 8th & howard
+
+maintain current site and make new one
+
+dave mcclure
+
+
+
+sites:
+
+amazon - compete with everybody
+
+igourmet - wherehouse the food
+
+gourmet food mall - best of the web for 3 years, forbes
+
+most have high upfront setup fees
+
+regional best - more like traditional ecommerce in community and look
+
+lots of 3rd party sites
+
+
+
+current site is pretty bare bones
+
+community - reviewing, video, facebook connect, etc.
+
+content - partnerships with chow.com, etc
+
+producers - self-service?
+
+geography - lots to think about, need more food
+
+rating/reviewing - threadless, etsy, no negativity! digg works...
+
+
+
+

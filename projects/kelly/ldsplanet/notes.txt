@@ -1,0 +1,11 @@
+LDS (mormon)
+
+summary: "This site reaches approximately 80,111 U.S. monthly people. The site appeals to a adult, mostly Caucasian, very slightly female biased, more educated following.The typical visitor frequents Latino People Meet, uses bbpeoplemeet.com, and belongs to the Church of Jesus Christ of Latter Day Saints."
+
+-quantcast
+
+mormon/lds combined population is around 2.5-3 million
+- http://www.census.gov/compendia/statab/cats/population/religion.html
+
+LDS is often used to denote a more fundamentalist and stricter branch of mormonism, mainly associated with polygamy and other doctrines the main LDS church has moved away from.
+- wikipedia

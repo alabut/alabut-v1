@@ -1,0 +1,171 @@
+<html><head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>File Upload Field Example</title>
+    
+    <link rel="stylesheet" type="text/css" href="file-upload-original_files/ext-all.css">
+    <script type="text/javascript" src="file-upload-original_files/ext-base.js"> </script>
+    <script type="text/javascript" src="file-upload-original_files/ext-all-debug.js"> </script>
+    
+    <link rel="stylesheet" type="text/css" href="file-upload-original_files/file-upload.css">
+    <script type="text/javascript" src="file-upload-original_files/FileUploadField.js"></script>
+    <script type="text/javascript" src="file-upload-original_files/file-upload.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="file-upload-original_files/examples.css">
+    <style>
+        .upload-icon {
+            background: url('../shared/icons/fam/image_add.png') no-repeat 0 0 !important;
+        }
+        #fi-button-msg {
+            border: 2px solid #ccc;
+            padding: 5px 10px;
+            background: #eee;
+            margin: 5px;
+            float: left;
+        }
+    </style><style type="text/css" charset="utf-8">/* See license.txt for terms of usage */
+
+.firebugHighlight {
+    z-index: 2147483647;
+    position: absolute;
+    background-color: #3875d7;
+}
+
+.firebugLayoutBoxParent {
+    z-index: 2147483647;
+    position: absolute;
+    background-color: transparent;
+    border-right: 1px dashed #BBBBBB;
+    border-bottom: 1px dashed #BBBBBB;
+}
+
+.firebugRulerH {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 14px;
+    background: url(chrome://firebug/skin/rulerH.png) repeat-x;
+    border-top: 1px solid #BBBBBB;
+    border-right: 1px dashed #BBBBBB;
+    border-bottom: 1px solid #000000;
+}
+
+.firebugRulerV {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 14px;
+    height: 100%;
+    background: url(chrome://firebug/skin/rulerV.png) repeat-y;
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #000000;
+    border-bottom: 1px dashed #BBBBBB;
+}
+
+.overflowRulerX > .firebugRulerV {
+    left: 0;
+}
+
+.overflowRulerY > .firebugRulerH {
+    top: 0;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.firebugLayoutBoxOffset {
+    z-index: 2147483647;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.firebugLayoutBoxMargin {
+    background-color: #EDFF64;
+}
+
+.firebugLayoutBoxBorder {
+    background-color: #666666;
+}
+
+.firebugLayoutBoxPadding {
+    background-color: SlateBlue;
+}
+
+.firebugLayoutBoxContent {
+    background-color: SkyBlue;
+}
+
+/*.firebugHighlightGroup .firebugLayoutBox {
+    background-color: transparent;
+}
+
+.firebugHighlightBox {
+    background-color: Blue !important;
+}*/
+
+.firebugLayoutLine {
+    z-index: 2147483647;
+    background-color: #000000;
+    opacity: 0.4;
+}
+
+.firebugLayoutLineLeft,
+.firebugLayoutLineRight {
+    position: fixed;
+    width: 1px;
+    height: 100%;
+}
+
+.firebugLayoutLineTop,
+.firebugLayoutLineBottom {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+}
+
+.firebugLayoutLineTop {
+    margin-top: -1px;
+    border-top: 1px solid #999999;
+}
+
+.firebugLayoutLineRight {
+    border-right: 1px solid #999999;
+}
+
+.firebugLayoutLineBottom {
+    border-bottom: 1px solid #999999;
+}
+
+.firebugLayoutLineLeft {
+    margin-left: -1px;
+    border-left: 1px solid #999999;
+}
+</style></head><body id="ext-gen9" class="ext-gecko ext-gecko2 ext-mac">
+    <h1>File Upload Field</h1>
+    <p>The example js is not minified so it is readable. See <a href="http://extjs.com/deploy/dev/examples/form/file-upload.js">file-upload.js</a>.  <a href="http://extjs.com/deploy/dev/examples/form/FileUploadField.js">FileUploadField.js</a> is the custom extension used to create the file upload field.</p>
+
+
+    <p>
+        <b>Basic FileUpload</b><br>
+        A typical file upload field with Ext style.  Direct editing of the text field cannot be done in a 
+        consistent, cross-browser way, so it is always read-only in this implementation.
+        </p><div id="fi-basic"><div style="width: 400px;" id="ext-gen16" class="x-form-field-wrap x-form-file-wrap"><input style="width: 331px;" readonly="readonly" class="x-form-text x-form-field x-form-file-text" size="20" autocomplete="off" id="ext-comp-1002" type="text"><input id="ext-comp-1002-file" name="ext-comp-1002" class="x-form-file" size="1" type="file"><table style="width: auto;" id="ext-comp-1003" class="x-btn-wrap x-btn x-form-file-btn" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="x-btn-left"><i>&nbsp;</i></td><td class="x-btn-center"><em unselectable="on"><button id="ext-gen18" class="x-btn-text" type="button">Browse...</button></em></td><td class="x-btn-right"><i>&nbsp;</i></td></tr></tbody></table></div></div>
+        <div id="fi-basic-btn"><table style="width: auto;" id="ext-comp-1004" class="x-btn-wrap x-btn" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="x-btn-left"><i>&nbsp;</i></td><td class="x-btn-center"><em unselectable="on"><button id="ext-gen30" class="x-btn-text" type="button">Get File Path</button></em></td><td class="x-btn-right"><i>&nbsp;</i></td></tr></tbody></table></div>
+    <p></p>
+
+    <p>
+        <b>Basic FileUpload (Button-only)</b><br>
+        You can also render the file input as a button without the text field, with access to the field's value via the 
+        standard <tt>Ext.form.TextField</tt> interface or by handling the <tt>fileselected</tt> event (as in this example).
+        </p><div id="fi-button"><div style="width: 66px;" id="ext-gen36" class="x-form-field-wrap x-form-file-wrap"><input style="visibility: hidden;" readonly="readonly" class="x-form-text x-form-field x-form-file-text" size="20" autocomplete="off" id="ext-comp-1005" type="text"><input id="ext-comp-1005-file" name="ext-comp-1005" class="x-form-file" size="1" type="file"><table style="width: auto;" id="ext-comp-1006" class="x-btn-wrap x-btn x-form-file-btn" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="x-btn-left"><i>&nbsp;</i></td><td class="x-btn-center"><em unselectable="on"><button id="ext-gen38" class="x-btn-text" type="button">Browse...</button></em></td><td class="x-btn-right"><i>&nbsp;</i></td></tr></tbody></table></div></div>
+        <div id="fi-button-msg" style="display: none;"></div>
+        <div class="x-clear"></div>
+    <p></p>
+    
+    <p>
+        <b>Form Example</b><br>
+        The FileUploadField can also be used in standard form layouts, with support for anchoring, validation (the
+        field is required in this example), empty text, etc.  This example also demonstrates using the 
+        <tt>buttonCfg</tt> option to provide a customized icon upload button.
+        </p><div id="fi-form"><div style="width: 500px;" id="ext-comp-1007" class="x-panel x-form-label-left"><div class="x-panel-tl"><div class="x-panel-tr"><div class="x-panel-tc"><div style="-moz-user-select: none;" id="ext-gen50" class="x-panel-header x-unselectable"><span id="ext-gen71" class="x-panel-header-text">File Upload Form</span></div></div></div></div><div id="ext-gen51" class="x-panel-bwrap"><div class="x-panel-ml"><div class="x-panel-mr"><div class="x-panel-mc"><form style="padding: 10px 10px 0pt; width: 468px; height: auto;" class="x-panel-body x-form" method="post" id="ext-gen49" enctype="multipart/form-data"><div class="x-form-item" tabindex="-1"><label for="ext-comp-1008" style="width: 50px;" class="x-form-item-label">Name:</label><div class="x-form-element" id="x-form-el-ext-comp-1008" style="padding-left: 55px;"><input style="width: 389px;" class="x-form-text x-form-field" size="20" autocomplete="off" id="ext-comp-1008" name="ext-comp-1008" type="text"></div><div class="x-form-clear-left"></div></div><div class="x-form-item" tabindex="-1"><label for="form-file" style="width: 50px;" class="x-form-item-label">Photo:</label><div class="x-form-element" id="x-form-el-form-file" style="padding-left: 55px;"><div style="width: 389px;" id="ext-gen76" class="x-form-field-wrap x-form-file-wrap"><input style="width: 362px;" readonly="readonly" class="x-form-text x-form-field x-form-file-text x-form-empty-field" size="20" autocomplete="off" id="form-file" type="text"><input id="form-file-file" name="photo-path" class="x-form-file" size="1" type="file"><table style="width: auto;" id="ext-comp-1011" class="x-btn-wrap x-btn x-form-file-btn x-btn-icon" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="x-btn-left"><i>&nbsp;</i></td><td class="x-btn-center"><em unselectable="on"><button id="ext-gen78" class="x-btn-text upload-icon" type="button">&nbsp;</button></em></td><td class="x-btn-right"><i>&nbsp;</i></td></tr></tbody></table></div></div><div class="x-form-clear-left"></div></div></form></div></div></div><div class="x-panel-bl"><div class="x-panel-br"><div class="x-panel-bc"><div id="ext-gen52" class="x-panel-footer"><div class="x-panel-btns-ct"><div class="x-panel-btns x-panel-btns-center"><table cellspacing="0"><tbody><tr><td id="ext-gen54" class="x-panel-btn-td"><table style="width: 75px;" id="ext-comp-1009" class="x-btn-wrap x-btn" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="x-btn-left"><i>&nbsp;</i></td><td class="x-btn-center"><em unselectable="on"><button id="ext-gen56" class="x-btn-text" type="button">Save</button></em></td><td class="x-btn-right"><i>&nbsp;</i></td></tr></tbody></table></td><td id="ext-gen62" class="x-panel-btn-td"><table style="width: 75px;" id="ext-comp-1010" class="x-btn-wrap x-btn" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="x-btn-left"><i>&nbsp;</i></td><td class="x-btn-center"><em unselectable="on"><button id="ext-gen64" class="x-btn-text" type="button">Reset</button></em></td><td class="x-btn-right"><i>&nbsp;</i></td></tr></tbody></table></td></tr></tbody></table><div class="x-clear"></div></div></div></div></div></div></div></div></div></div>
+    <p></p>
+<div style="position: absolute; z-index: 20000; visibility: hidden; display: none;" id="ext-comp-1001" class="x-tip"><div class="x-tip-tl"><div class="x-tip-tr"><div class="x-tip-tc"><div style="-moz-user-select: none;" id="ext-gen10" class="x-tip-header x-unselectable"><span class="x-tip-header-text"></span></div></div></div></div><div id="ext-gen11" class="x-tip-bwrap"><div class="x-tip-ml"><div class="x-tip-mr"><div class="x-tip-mc"><div style="height: auto;" id="ext-gen12" class="x-tip-body"></div></div></div></div><div class="x-tip-bl x-panel-nofooter"><div class="x-tip-br"><div class="x-tip-bc"></div></div></div></div></div></body></html>

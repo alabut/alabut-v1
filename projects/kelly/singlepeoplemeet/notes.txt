@@ -1,0 +1,16 @@
+singlepeoplemeet (single parents)
+
+
+summary: "Singleparentmeet.com is a top 5,000 site that reaches over 452K U.S. monthly people. The site appeals to a slightly more male than female audience.The typical visitor frequents Latino People Meet and visits amigos.com."
+
+-quantcast
+
+population of single parents has been holding steady the last decade:     "The percentage of households headed by single parents showed little variation from 1994 through 2006, at about 9 percent, up from 5 percent in 1970, according to the latest data on America’s families and households released today by the U.S. Census Bureau.     According to Families and Living Arrangements: 2006, there were 12.9 million one-parent families in 2006 — 10.4 million single-mother families and 2.5 million single-father families."
+- U.S. Census Bureau
+
+demographic:
+
+Most single parents are female, however the male-headed families are growing quickly.
+
+"According to the United States Bureau of the Census, the fastest-growing household type since the 1980s has been the single person."
+-wikipedia

@@ -1,0 +1,92 @@
+#cloudize-fileviewer {
+	background: url(tablebg.png) no-repeat bottom left;
+	color: #fff;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#cloudize-fileviewer.cloudize-wider {
+	background: url(tablebg_wider.png) no-repeat bottom left;
+}
+
+#cloudize-fileviewer a,
+#cloudize-fileviewer a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+#cloudize-fileviewer a:hover {
+	text-decoration: underline;
+}
+
+#cloudize-fileviewer #cloudize-tablelogo {
+	background: url(tableheader.png) no-repeat 0 0;
+	height: 45px;
+	text-indent: -10000px;
+}
+
+#cloudize-fileviewer.cloudize-wider #cloudize-tablelogo {
+	background: url(tableheader_wider.png) no-repeat 0 0;
+}
+
+#cloudize-fileviewer #cloudize-tablecontainer {
+	height: 200px;
+	overflow: auto;
+	width: 690px;
+}
+
+#cloudize-fileviewer.cloudize-wider #cloudize-tablecontainer {
+	width: 890px;
+}
+
+#cloudize-fileviewer table {
+	padding: 0 10px 10px 10px;
+	width: 670px;
+}
+
+#cloudize-fileviewer.cloudize-wider table {
+	width: 870px;
+}
+
+#cloudize-fileviewer img {
+	border: none;
+}
+
+#cloudize-fileviewer th {
+	border-bottom: 1px solid #7593B3;
+	text-align: left;
+}
+
+#cloudize-fileviewer td {
+	border-bottom: 1px solid #355373;
+}
+
+#cloudize-fileviewer th,
+#cloudize-fileviewer td {
+	padding: 5px;
+	white-space: nowrap;
+}
+
+#cloudize-fileviewer .cloudize-description {
+	width: 45%;
+}
+
+#cloudize-fileviewer .cloudize-filename a {
+	float: left;
+}
+
+#cloudize-fileviewer .cloudize-filelink {
+	overflow: hidden;
+	width: 130px;
+}
+
+#cloudize-addfiles {
+	border-top: 1px solid #7593B3;
+	margin: 0 10px 10px 10px;
+	padding: 10px;
+	width: 630px;
+}
+
+#cloudize-fileviewer.cloudize-wider #cloudize-addfiles {
+	width: 830px;
+}

@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #7190B1 url(bg.jpg) repeat-x 0 0;
+	color: #fff;
+	font-family: Verdana;
+	font-size: 14px;
+	text-align: center;
+}
+
+a, a:link {
+	color: #fff;
+}
+
+a:visited {
+	/* later */
+}
+
+a:hover {
+	color: #006;
+	text-decoration: none;
+}
+
+#registration {
+	margin: 0 auto;
+	text-align: left;
+	width: 650px;
+}
+
+#registration h1,
+#registration h2,
+#registration h3 {
+	text-indent: -10000px;
+}
+
+#registration h1 {
+	background: transparent url(logo.gif) no-repeat 10px 0;
+	height: 120px;
+}
+
+#registration h2 {
+	background: transparent url(welcome.gif) no-repeat 10px 0;
+	height: 82px;
+}
+
+#registration h3 {
+	height: 20px;
+}
+
+#registration #form-container {
+	float: left;
+	width: 390px;
+}
+
+#registration #form-container form {
+	background: transparent url(form.png) no-repeat 0 0;
+	width: 390px;
+}
+
+#registration #form-header {
+	height: 40px;
+}
+
+#registration #username-and-password h3 {
+	background: transparent url(form_step1.png) no-repeat 10px 0;
+	margin-top: 10px;
+}
+
+#registration #username-and-password input {
+	border: 1px solid #325070;
+}
+
+#registration #contact-info h3 {
+	background: transparent url(form_step2.png) no-repeat 10px 10px;
+	padding-top: 10px;
+}
+
+#registration #create-account h3 {
+	background: transparent url(form_step3.png) no-repeat 10px 10px;
+	padding-top: 10px;
+}
+
+#registration #create-account {
+	background: transparent url(form.png) no-repeat 0 bottom;
+	padding-bottom: 10px;
+}
+
+#registration #create-account input {
+	background: url(register_button.png) no-repeat 0% 0%;
+	border: none;
+	height: 23px;
+	text-indent: -10000px;
+	width: 76px; 
+}
+
+#registration #form-container p, 
+#registration #form-container ul {
+	margin: 10px 0 10px 70px;
+	width: 230px;
+}
+
+#registration li {
+	border-bottom: 1px solid #5E7A97;
+	list-style-type: none;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+#registration #sidebar {
+	float: left;
+	padding: 18px 0 0 30px;
+	width: 230px;
+}
+
+#registration #sidebar h3 {
+	background: transparent url(sidebar_header.png) no-repeat 0 0;
+}
+
+#registration #footer {
+	float: left;
+	font-size: 11px;
+	padding-top: 40px;
+	text-align: center;
+	width: 650px;
+}

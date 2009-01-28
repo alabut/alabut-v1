@@ -1,0 +1,1102 @@
+/*****
+alabut.com - version six.
+
+
+
+Some rights reserved. This work is licensed by Al Abut
+under a Creative Commons License
+(Attribution-NonCommercial-ShareAlike 2.0)
+
+
+
+created 2005-2007 with tender loving care. enjoy.
+feel free to dig in and learn - that's how I got here.
+just don't rip me off or I'll have to hunt you down.
+*****/
+
+
+
+
+
+
+/*****
+global styles and default browser crap removal
+*****/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background:#8A8AAC url(http://alabut.com/graphics_2006/background.png) repeat-x;
+	font-family: "Lucida Grande", Verdana, Geneva, sans-serif;
+	/* Helvetica looks beautiful in the h2's, but messes up the nav
+	a bit, unfortunately. Next time. */
+	text-align: center;
+}
+
+#skipnav {
+	display: none;
+}
+
+/* 	Remove link underlines from the sidebar and footer, since
+	link underlines tend to make text less readable - underlines
+	obscure the shapes of the lower halves of words. This will
+	especially help the readability of the sidebar, since it's
+	mostly a long list of links.
+*/
+:link, :visited {
+	text-decoration: none;
+}
+
+/*	Add the underlines back into the main content column, however,
+	since that area consists of larger chunks of writing with links
+	tucked into it and underlines help the visual tracking and
+	findability of the links amongst a sea of text.
+*/
+#content :link, #content :visited {
+	text-decoration: underline;
+}
+
+/*	Link colors. guess what? blue is rad. rocking it old school,
+	with red for visited.
+*/
+:link {
+	color: #009;
+}
+
+a:hover, a:visited:hover {
+	color: #fff;
+}
+
+a:hover {
+	background-color: #006;
+}
+
+a:visited:hover {
+	background-color: #600;
+}
+
+/* whoever thought blue linked image borders were a good idea? */
+a img, :link img, :visited img, :hover img {
+	background-color: transparent;
+	border:none;
+}
+
+
+
+
+
+
+/*****
+page layout
+*****/
+
+#page_outer {
+	background:#fff;
+	border-left:3px solid #ACAFBF;
+	border-right:3px solid #ACAFBF;
+	border-bottom:3px solid #ACAFBF;
+	margin:0 auto;
+	width:812px;
+}
+
+#page_inner {
+	padding: 15px 15px 10px 15px;
+	text-align: left;
+}
+
+#content h1, #content-intro h1, #sidebar h1,
+#featured-project h1, #latest-writing h1 {
+	display: none;
+}
+
+
+
+
+
+
+/*****
+nameplate header and photo banner
+*****/
+
+h1 {
+	background: url(http://alabut.com/graphics_2006/logo_bw_2006.gif) 50% 50%;
+	height: 51px;
+}
+
+h1 a, h1 a:visited {
+	display: block;
+	height: 0 !important;
+	height /**/:51px; /* for IE5.5's bad box model */
+	margin-left: 229px;
+	overflow: hidden;
+	padding-top: 51px;
+	width: 324px;
+}
+
+h1 a:hover, h1 a:visited:hover {
+	background: transparent;
+/*
+this could be cool again - just need to rethink/redo the graphic that goes there
+	background: transparent url(http://alabut.com/graphics_2005/logo_hover.gif) no-repeat;
+*/
+}
+
+
+
+
+
+
+/*****
+navigation
+*****/
+
+#navigation * {
+	font: 12px Verdana;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation {
+	margin-top: 15px;
+	background: #666;
+	height: 53px;
+	margin: 15px 0 18px 0;
+	text-align: left;
+	width: 100%;
+}
+
+#navigation ul {
+	background: #fff;
+	display: block;
+	height: 53px;
+	width: 540px; /* this is an IE-specific setting, overwritten below */
+}
+
+/* this is the real setting, for well-behaved non-IE browsers like FF, camino, safari, etc */
+html>body #navigation ul {
+	width: 525px;	
+}
+
+#navigation li {
+	display: inline;
+	float: left;
+	height: 50px;
+	margin-right: 5px;
+	width: 100px;
+}
+
+#location-contact #contact {
+	margin-right: 0;
+}
+
+#navigation li a {
+	background: #666;
+	color: #fff;
+	display: block;
+	height: 100%;
+	padding: 3px 0 0 3px;
+	text-decoration: none;
+	width: 100%;
+}
+
+#navigation li a:hover {
+	background: #333;
+	color: #fff;
+}
+
+#navigation a:hover,
+#location-home #home a,
+#location-about #about a,
+#location-resume #about a,
+#location-portfolio #portfolio a,
+#location-writing #writing a,
+#location-writing-archives #writing a,
+#location-contact #contact a
+{
+/*
+	background: #EF684A url(http://alabut.com/graphics_2005/stripes_orange.gif);
+*/
+	background: #8E7B39;
+	color: #fff;
+}
+
+
+
+
+
+
+/*****
+subnavigation, portfolio section
+*****/
+
+.sansai #sansai a,
+.sbrp #sbrp a,
+.jeff #jeff a,
+.wolfkatz #wolfkatz a,
+.immuno #immuno a,
+.alabut #alabut a,
+.alabutveefour #alabutveefour a,
+.bioredesign #bioredesign a,
+.biofirstsite #biofirstsite a,
+.biopreapp #biopreapp a,
+.flashslideshow #flashslideshow a,
+.dentrek #dentrek a,
+.biobuildings #biobuildings a,
+.lscalendar #lscalendar a,
+.bioxml #bioxml a,
+.biointranet #biointranet a
+{
+	background: #EF684A;
+	color: #fff;
+}
+
+#location-portfolio #sidebar li {
+	display: inline; /* ie-specific recent addition */
+}
+
+#location-portfolio #sidebar a {
+	display: block;
+	padding-left: 3px;
+}
+
+#location-portfolio #sidebar a:visited:hover {
+	background: #571C8C;
+	color: #fff;
+}
+
+
+
+
+
+
+/*****
+content
+	(global)
+*****/
+
+h2 {
+	color: #333;
+	letter-spacing: -1px;
+}
+
+#content, #content-intro {
+	font-size: 12px;
+}
+
+#content h2 {
+	background: url(http://alabut.com/graphics_2005/gray_stripes.gif) repeat-x;
+	font-size: 18px;
+	padding-top: 22px;
+}
+
+#content h2 a {
+	color: #006;
+}
+
+#content h2 a:hover {
+	background: #006;
+	color: #fff;
+}
+
+#content h2 a:visited {
+	color: #600;
+}
+
+#content h2 a:visited:hover {
+	background: #600;
+	color: #fff;
+}
+
+.post {
+	background: url(http://alabut.com/graphics_2005/post_divider.gif) 50% 100% no-repeat;
+	margin-bottom: 50px;
+	padding-bottom: 71px;
+}
+
+p {
+	padding: 10px 0 0 0;
+}
+
+address {
+	display: inline;
+}
+
+#form-search {
+	text-align:left;
+
+}
+
+#form-search fieldset {
+	border: 1px solid #ccc;
+	margin-top: 5px;
+	padding: 6px;
+}
+
+#form-search legend {
+	color: #666;
+	font-size: 10px;
+}
+
+#form-search .hidden {
+	display: none;
+}
+
+#form-search #url {
+	width: 10em;
+}
+
+#form-search .search {
+	margin: 0 0 0 5px;
+}
+
+
+
+
+
+
+/*****
+content and sidebar
+	(main = full, no sidebar)
+	(pages: resume)
+*****/
+
+#location-resume #content h1 {
+	display: none;
+}
+
+#location-resume #content h2 {
+	margin: 20px 0 0 0;
+}
+
+#location-resume #content p {
+	margin: 0;
+}
+
+#location-resume #content h3 {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+#location-resume #content h4 {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#location-resume #content h5 {
+	color: #333;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+#location-resume #content ul {
+	list-style: circle;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+/*****
+content and sidebar
+	(main = 3/4 and left)
+	(pages: writing, writing-archives)
+*****/
+
+#location-writing-archives #content {
+	background: #fff;
+	color: #1A1A1A;
+	float: left;
+	font-size: 12px;
+	width: 559px;
+}
+
+#location-writing-archives p,
+#location-writing-archives li {
+	line-height: 140%;
+}
+
+#location-writing-archives p {
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+#location-writing-archives h3 {
+	border-bottom: 1px solid #e6e6e6;
+	color: #1A1A1A;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 20px 0 0 0;
+	padding: 5px 0 3px 0;
+}
+
+#location-writing-archives h3.date {
+	border: none;
+	color: #666;
+	font-size: 10px;
+	font-weight: normal;
+	margin: 2px 0 10px 0;
+	padding: 0;
+}
+
+#location-writing-archives #sidebar {
+	background: #fff url(http://alabut.com/graphics_2005/gray_stripes.gif) repeat-x;
+	float: right;
+	font-size: 11px;
+}
+
+/* NOTE: alter the spacing of the del.icio.us sidebar links */
+
+#location-writing-archives #sidebar ul {
+	list-style:none;
+	margin-top: 10px;
+	padding:0 10px 10px 10px;
+}
+
+#location-writing-archives #sidebar li {
+	margin-top: 5px;
+}
+
+#location-writing-archives #sidebar p {
+	padding: 10px;
+}
+
+#location-writing-archives #sidebar p,
+#location-writing-archives #sidebar ul {
+	background:#dadada;
+	border:1px solid #ccc;
+}
+
+#location-writing-archives #sidebar h2 {
+	border-top: 3px solid #ccc;
+	border-bottom: 1px dotted #999;
+	font-size: 11px;
+	letter-spacing: -1px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#location-writing-archives #sidebar #first {
+	border: none;
+	margin-top: 10px;
+}
+
+#location-writing-archives #sidebar {
+	width: 193px;
+}
+
+#location-writing-archives #sidebar #book {
+	text-align: left;
+}
+
+#location-writing-archives #sidebar #book img {
+	border: 1px solid #ccc;
+	margin-top: 5px;
+	padding: 3px;
+}
+
+#location-writing-archives #sidebar #book a:hover {
+	background: none;
+	color: red;
+}
+
+#location-writing-archives #sidebar #ad {
+	margin-top: 20px;
+}
+
+#location-writing-archives #sidebar #feeds a {
+	background: url(http://alabut.com/graphics_2006/feed-icon-16x16_gray.gif) no-repeat 7px 60%;
+	display: block;
+	padding: 4px 4px 4px 30px;
+}
+
+#location-writing-archives #sidebar #feeds a:hover {
+        background: #FADCC7 url(http://alabut.com/graphics_2006/feed-icon-16x16_orange.gif) no-repeat 7px 60%;
+	color: #81451B;
+}
+
+#location-writing-archives #sidebar #sidebar-bio {
+	padding: 12px;
+}
+
+#location-writing-archives #sidebar #sidebar-learnmore a {
+	display: block;
+	padding: 7px;
+}
+
+#location-writing-archives #sidebar #sidebar-learnmore a:hover {
+	background: #E3D1D1;
+	color: #600;
+}
+
+#location-writing-archives #archivemenu {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+#location-writing-archives #content h2 {
+	font-size: 30px;
+	letter-spacing: -2px;
+	padding-bottom: 5px;
+}
+
+#location-writing-archives #content h2 a,
+#location-writing-archives #content h2 a:visited {
+color: #333;
+text-decoration: none;
+}
+
+#location-writing-archives #content h2 a:hover {
+background: transparent;
+color: #006;
+text-decoration: underline;
+}
+
+#location-writing-archives #content img {
+	border: 1px solid #ccc;
+	float: right;
+	margin: 0 0 5px 5px;
+	padding: 3px;
+}
+
+#location-writing-archives #content img.banner {
+	background: #ccc;
+	border: 1px solid #999;
+	float: none;
+	margin: 5px 0;
+	padding: 3px;
+}
+
+#location-writing-archives #content img.figure {
+	/*
+		This style zeroes out all the rules applied with the
+		styles above for the images using the new figure
+		microformat classes below, without touching the old
+		legacy classes I used up until now.
+	*/
+	background: transparent;
+	border: 2px solid #f7f7f7;
+	float: none;
+	margin: 0;
+	padding: 3px;
+}
+
+#location-writing-archives #content img.figure-a {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#location-writing-archives #content img.figure-b {
+	float: right;
+	border: 1px solid #999;
+	margin: 0 0 6px 6px;
+}
+
+#location-writing-archives #content img.figure-c {
+	float: left;
+	border: 1px solid #999;
+	margin: 0 6px 6px 0;
+}
+
+#location-writing-archives #content img.plain,
+#location-writing-archives #content img.matchthebackground {
+	background: transparent;
+	border: 0;
+}
+
+#location-writing-archives #content blockquote {
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+	line-height: 180%;
+	margin: 20px;
+	padding: 10px;
+}
+
+#location-writing-archives #content blockquote p {
+	margin: 0;
+	padding: 0;
+}
+
+#location-writing-archives #content .IM {
+	background: url(http://alabut.com/graphics_2006/IM_middle_grey.gif) repeat-y;
+	border: none;
+	margin: 20px 0;
+	padding: 0;
+	width: 402px;
+}
+
+#location-writing-archives #content .IM ul {
+	background: url(http://alabut.com/graphics_2006/IM_top.gif) no-repeat;
+	list-style: none;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+#location-writing-archives #content .IM li {
+	background: url(http://alabut.com/graphics_2006/IM_middle_white.gif) repeat-y;
+	margin: 0 0 2px 0;
+	padding: 5px 5px 5px 25px;
+}
+
+#location-writing-archives #content .IM .IM-bottom {
+	background: url(http://alabut.com/graphics_2006/IM_bottom.gif) no-repeat 0% 100%;
+	height: 10px;
+}
+
+#location-writing-archives #content ul,
+#location-writing-archives #content ol {
+	margin: 10px 0 0 30px;
+}
+
+#location-writing-archives #content ul {
+	list-style: circle;
+}
+
+#location-writing-archives .technoratitag,
+#location-writing-archives .blogPostFooter {
+	background: #F1F1F1;
+	border-top: 1px solid #E8E8E8;
+	border-bottom: 1px solid #E8E8E8;
+	color: #333;
+	font-size: 10px;
+	margin: 10px 0 5px 0;
+	padding: 5px;
+}
+
+.technoratitag a, .technoratitag a:link {
+	text-decoration: none;
+}
+
+#flickrimg1, #flickrimg2, #flickrimg3, #flickrimg4, #flickrimg5,
+#flickrimg6, #flickrimg7, #flickrimg8, #flickrimg9, #flickrimg10 {
+	margin: 4px 4px 0 0;
+	padding: 0;
+}
+
+.blogComment {
+	border-top: 1px solid #ccc;
+	margin-top: 15px;
+	padding-top: 25px;
+}
+
+.blogCommentCreate {
+	border-bottom:1px solid #ccc;
+	padding-bottom:25px;
+}
+
+#content .blogComments h1 {
+	background: url(http://alabut.com/graphics_2005/post_divider.gif) 50% 0 no-repeat;
+	border: none;
+	display: block;
+	height: auto;
+	margin-top: 50px;
+	padding-top: 0;
+}
+
+#content .byline {
+	color: #333;
+	font-size: 10px;
+	margin: 5px 0 5px 0;
+	padding-bottom: 15px;
+}
+
+#location-writing-archives .update {
+	background: #F6E8E8;
+	/*background: #F6E8E8 url(http://alabut.com/graphics_2006/update_stripes.gif);*/
+	border: 1px solid #E3B9B9;
+	padding: 5px;
+}
+
+#location-writing-archives .update strong {
+	color: #900;
+}
+
+#location-writing-archives #content .links,
+#location-writing-archives #content .links * {
+	padding: 0;
+}
+
+#location-writing-archives #content .links {
+	border-top: 1px dotted #ccc;
+	list-style-type: none;
+	margin: 20px 0 20px 0;
+	width: 100%;
+}
+
+#location-writing-archives #content .links li {
+	border-bottom: 1px dotted #ccc;
+}
+
+#location-writing-archives #content .links li a {
+	color: #900;
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+}
+
+* html #location-writing-archives #content .links { /* make hover work in IE */
+}
+
+#location-writing-archives #content .links li a:hover {
+	background: #D1D1EC;
+}
+
+#location-writing-archives #content .links li a:hover * {
+	color: #000;
+}
+
+#location-writing-archives #content .links dt {
+	color: #009;
+	display: block;
+	font-size: 16px;
+	line-height: 125%;
+}
+
+#location-writing-archives #content .links dd {
+	color: #666;
+	line-height: 150%;
+}
+
+#location-writing-archives #content .links p {
+	text-align: center;
+}
+
+#location-writing-archives #content .links img {
+	float: none;
+	padding: 1px;
+}
+
+#location-writing-archives #content .links dl {
+
+}
+
+
+
+
+
+
+/*****
+content and sidebar
+	(main = half and half)
+	(pages: about, writing, contact, home)
+*****/
+
+#location-about #column-one, #location-about #column-two,
+#location-404 #column-one, #location-404 #column-two,
+#location-writing #content, #location-writing #sidebar,
+#location-contact #content, #location-contact #sidebar,
+#location-home #featured-project, #location-home #latest-writing {
+	color: #1A1A1A;
+	float: left;
+	font-size: 12px;
+	width: 381px;
+}
+
+#location-home #featured-project, #location-home #latest-writing,
+#location-home #contact-info {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#location-home #featured-project img {
+	border: 1px solid #ccc;
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 3px;
+}
+
+#location-home #featured-project h2 {
+	margin-bottom: 10px;
+}
+
+#location-home #featured-project p {
+	margin: 0 0 10px 0;
+	padding-top: 0;
+}
+
+#location-home #latest-writing p {
+	margin: 0 0 10px 0;
+	padding-top: 0;
+}
+
+#location-home #contact-info {
+	padding-top: 10px;
+}
+
+#location-about #column-two,
+#location-404 #column-two,
+#location-writing #sidebar,
+#location-contact #sidebar,
+#location-home #latest-writing {
+	float: right;
+}
+
+#location-home #content-intro, #location-home #contact-info {
+	color: #1A1A1A;
+	font-size: 12px;
+}
+
+#location-about #column-one h1, #location-about #column-two h1,
+#location-404 #column-one h1, #location-404 #column-two h1,
+#location-home #featured-project h1, #location-home #latest-writing h1, 
+#location-home #contact-info h1 {
+	display: none;
+}
+
+#location-about #column-one a, #location-about #column-two a {
+	text-decoration: underline;
+}
+
+#location-about #column-one a:hover, #location-about #column-two a:hover {
+	text-decoration: none;
+}
+
+#location-about h2,
+#location-404 h2,
+#location-writing h2,
+#location-contact h2,
+#location-home h2 {
+	background:url(http://alabut.com/graphics_2005/gray_stripes.gif) repeat-x;
+	font-size:14px;
+	letter-spacing:0;
+	padding-top:22px;
+}
+
+#location-404 #column-one h2 {
+	font-size:60px;
+	letter-spacing:-2px;
+}
+
+#location-404 #column-two a {
+	text-decoration:underline;
+}
+
+#location-404 #column-two a:hover {
+	text-decoration:none;
+}
+
+
+
+
+
+
+#location-home #latest-writing h2 {
+	margin-bottom: 10px;
+}
+
+#location-about h3,
+#location-404 h3,
+#location-writing h3,
+#location-contact h3,
+#location-home h3 {
+	color: #1A1A1A;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#location-contact #chat, #location-about h3 {
+	margin: 15px 0;
+}
+
+#location-home h4 {
+	color: #666;
+	font-size: 10px;
+}
+
+#location-about p {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#location-about #column-one li,
+#location-about #column-two li {
+	list-style: circle;
+	margin-left: 30px;
+}
+
+#location-writing ul {
+	list-style: none;
+}
+
+#location-writing #content ul a {
+	text-decoration: none;
+}
+
+#location-contact #content li {
+	list-style: none;
+	margin-top: 10px;
+}
+
+#location-contact #content address {
+	font-style: normal;
+}
+
+#location-contact #sidebar li {
+	list-style: none;
+	margin: 3px 0 0 10px;
+}
+
+#location-home #contact-info {
+	clear: both;
+}
+
+#location-home .learn-more,
+#location-home #featured-project .learn-more {
+	margin-top: 5px;
+}
+
+#location-home .learn-more a, #location-home .learn-more a:visited {
+	background: #E6E6E6;
+	border: 1px solid #ccc;
+	color: #333;
+	padding: 2px 5px 2px 5px;
+}
+
+#location-home .learn-more a:hover {
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+.continued {
+	text-decoration: underline;
+}
+
+.continued:hover {
+	text-decoration: none;
+}
+
+#location-home #content-intro h2 {
+	font-size: 20px;
+}
+
+#location-home #content-intro p { 
+	color: #333;
+	font-size:12px;
+	padding-top: 3px;
+}
+
+
+
+
+
+
+/*****
+content and sidebar
+	(main = 3/4 and right)
+	(pages: portfolio)
+*****/
+
+#location-portfolio #content {
+	color: #1A1A1A;
+	float: right;
+	font-size: 12px;
+	width: 569px;
+}
+
+#location-portfolio #content h2 {
+	border-bottom: 3px solid #E4E4E4;
+	font-size: 30px;
+	padding-bottom: 5px;
+}
+
+#location-portfolio #content h3 {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+#location-portfolio #content p {
+	margin: 5px 0 20px 0;
+	padding: 0;
+}
+
+#location-portfolio #content li {
+	list-style: circle;
+	margin-left: 20px;
+}
+
+#location-portfolio #content img {
+	border: 1px solid #ccc;
+	clear: right;
+	float: right;
+	margin: 10px 0 0 10px;
+	padding: 5px;
+}
+
+#screenshots {
+}
+
+#location-portfolio #sidebar {
+	background: url(http://alabut.com/graphics_2005/gray_stripes.gif) repeat-x;
+	float: left;
+	font-size: 12px;
+}
+
+#location-portfolio #sidebar ul {
+	list-style: none;
+}
+
+#location-portfolio #sidebar h2 {
+	border-top: 3px solid #E4E4E4;
+	font-size: 12px;
+	margin-top: 11px;
+	padding-top: 11px;
+}
+
+#location-portfolio #sidebar .first {
+	border: none;
+}
+
+#location-portfolio #sidebar {
+	width: 193px;
+}
+
+
+
+
+
+
+/*****
+footer
+*****/
+
+#footer {
+	background: #ccc url(http://alabut.com/graphics_2005/footer.gif) 50% 0% no-repeat;
+	clear: both;
+	color: #333;
+	font-size: 10px;
+	line-height: 180%;
+	padding: 45px 15px 15px 15px;
+	text-align: left;
+}
+
+#footer h1 {
+	display: none;
+}
+
+#footer a {
+	color: #333;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	background: transparent;
+	color: #000;
+	text-decoration: none;
+}
+
+#footer p {
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+

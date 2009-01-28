@@ -1,0 +1,64 @@
+/*****
+alabut.com - version six.
+
+
+
+Some rights reserved. This work is licensed by Al Abut
+under a Creative Commons License
+(Attribution-NonCommercial-ShareAlike 2.0)
+
+
+
+created for 2005 with tender loving care. enjoy.
+feel free to dig in and learn - that's how I got here.
+just don't rip me off or I'll have to hunt you down.
+*****/
+
+
+
+
+
+
+/*****
+global styles and default browser crap removal
+*****/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Georgia, Times, Times New Roman, serif;
+}
+
+#skipnav, h1, #navigation, #footer {
+	display: none;
+}
+
+:link, :visited {
+	text-decoration: none;
+}
+
+/*	Link colors. guess what? blue is rad. rocking it old school.
+*/
+:link {
+	color: #009;
+}
+
+/* whoever thought blue linked image borders were a good idea? */
+a img, :link img, :visited img { border:none }
+
+h2 {
+	margin-bottom: 0.2em;
+	margin-top: 1em;
+}
+
+h3 {
+	margin-top: 1em;
+}
+
+
+#photoholder, #photoholder img, #photoholder-big, #photoholder-big img {
+	display: none;
+}
